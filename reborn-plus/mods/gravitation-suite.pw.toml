@@ -1,0 +1,13 @@
+name = "Gravitation Suite"
+filename = "Gravitation Suite-3.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "64cb09e747fd961fddb5837b42f573ed7560cc95"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2668119
+project-id = 253590

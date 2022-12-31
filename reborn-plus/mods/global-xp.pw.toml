@@ -1,0 +1,13 @@
+name = "Global XP"
+filename = "globalxp-1.12.x-v1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d7af808a19fa68099df76e4a2f528a0a9373a119"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2522589
+project-id = 268647

@@ -1,0 +1,13 @@
+name = "[DEPRECATED] Tim3Game's European Signs Pack [MTS]"
+filename = "Tim3Game's European Signs Pack 1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e3e12c5d23c9f183cd1ead4a2c01910c828dca5d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2668037
+project-id = 312962

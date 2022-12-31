@@ -1,0 +1,13 @@
+name = "LagFIx [BETA]"
+filename = "LAGFIX 1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ca3aea3a09ce215906c346fe190907fe0347b0c4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4031421
+project-id = 689254

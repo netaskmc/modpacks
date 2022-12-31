@@ -1,0 +1,13 @@
+name = "TrueType Font Replacement"
+filename = "TTFR-1.12.1-1.9.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6d557f637500b84cbb4d6d86339f5e4ad2680d13"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2463895
+project-id = 243639

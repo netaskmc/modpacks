@@ -1,0 +1,13 @@
+name = "Simple Generators"
+filename = "simplegenerators-1.12.2-2.0.19.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aff35fb6c640217862b9c234c397189cbe3a0951"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2654966
+project-id = 246010

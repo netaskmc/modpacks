@@ -1,0 +1,13 @@
+name = "Rotten Flesh To Leather Mod by Ayano"
+filename = "RottenFleshToLeather [1.0.1].jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "14b2960986cc36064b369a31303d11488aff9481"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2434660
+project-id = 265074

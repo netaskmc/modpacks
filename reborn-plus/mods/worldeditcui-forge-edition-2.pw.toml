@@ -1,0 +1,13 @@
+name = "WorldEditCUI Forge Edition 2"
+filename = "WorldEdit CUI Forge Edition 2-2.1.2-mf-1.12.2-14.23.5.2768.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9d450df21dd6cb44e8a8c03642f8a931b18b4a72"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2629417
+project-id = 261019

@@ -1,0 +1,13 @@
+name = "Dynamic Trees - Industrial Craft 2"
+filename = "DynamicTreesIC2-1.12.2-1.2.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "600ff05a411d3c5dfe86ff6e012168dfd4e14ffc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3274470
+project-id = 386770

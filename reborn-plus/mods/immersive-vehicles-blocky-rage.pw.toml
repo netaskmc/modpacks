@@ -1,0 +1,13 @@
+name = "[Immersive Vehicles] R.A.G.E"
+filename = "R.A.G.E_1.3.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b3ff42070ee1d03e38a3a8aa00c7dc8bd9ceefd1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4076971
+project-id = 583103

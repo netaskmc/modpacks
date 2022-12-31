@@ -1,0 +1,13 @@
+name = "Archicraft building"
+filename = "Archicraft-1.5.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2160bca8196078ea7fc75a6c08d327cf3d91d55f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2683770
+project-id = 307609

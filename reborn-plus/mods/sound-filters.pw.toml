@@ -1,0 +1,13 @@
+name = "Sound Filters"
+filename = "SoundFilters-0.12_for_1.12.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "072dfb98797f4f48b8e5d37d64fe1e83c00e6681"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2892340
+project-id = 222789

@@ -1,0 +1,13 @@
+name = "TATW"
+filename = "Tatw-1.12.2-1.0.1.2.b27.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8c83f7f1bed5b423499e043ee558ed87531073d2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2585616
+project-id = 263980
