@@ -868,11 +868,6 @@ hash = "93bb7ceddd7ab173b75e6759f71b627bdf07bbee3e6d37dbdf2296c3d12e09f0"
 metafile = true
 
 [[files]]
-file = "mods/lagfix-beta.pw.toml"
-hash = "0961baf3169dc42137c4c49a45d8bd58181746c743064a3829ba10c05e9c6946"
-metafile = true
-
-[[files]]
 file = "mods/lunatriuscore.pw.toml"
 hash = "059eed4d55fa0728def70fc36e958b7d0f66bf6f6a4d856dbe6530cd30cac8ed"
 metafile = true
