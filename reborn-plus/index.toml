@@ -808,6 +808,11 @@ hash = "3fb33d0b22cb9f434fc033670798f41ffd5eb1d5cc0187b175ead7dfec445f63"
 metafile = true
 
 [[files]]
+file = "mods/extreme-reactors.pw.toml"
+hash = "eafb0b5ea70aa40fd93e93331e0a4d59708b9a7502297a3ece67a3c83813f9a2"
+metafile = true
+
+[[files]]
 file = "mods/foamfix-optimization-mod.pw.toml"
 hash = "9ebf99a09414c38e4959b828266d83d3983366e1694d0bb901125a85121e97de"
 metafile = true
@@ -1065,4 +1070,9 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-mineshafts-forge.pw.toml"
 hash = "c9bc93209b1b68be06d722a27f49021ef593936d29e2f0f953eaf2d15d3c31cf"
+metafile = true
+
+[[files]]
+file = "mods/zerocore.pw.toml"
+hash = "424ed75337a2834cae6e318d47c9c1d57b9e08ae4f1e10db09160b84da320ecd"
 metafile = true
