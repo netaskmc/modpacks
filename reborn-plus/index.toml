@@ -774,7 +774,7 @@ metafile = true
 
 [[files]]
 file = "mods/cursor-mod.pw.toml"
-hash = "0974ab6c72d4bcce65a2ecf7f0a0320f129dcbf9393f67b287909ad6db73d318"
+hash = "5f59ab0055b1f2a6e1a910fbb1a0941d455d3ec396e4f63150951d46982166ab"
 metafile = true
 
 [[files]]
