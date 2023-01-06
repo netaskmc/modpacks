@@ -1,12 +1,12 @@
 name = "NeTask Reborn+"
 author = "NeTask Collective"
-version = "1.0.1"
+version = "1.0.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "2bf98900623289a9472c69e6084f01031357c1368b4584a467a8e0eb777c83ff"
+hash = "45a270dc7fbd588540b7e7b947681b922b1a042fb0ea0be68d01a7a427ab3c44"
 
 [versions]
 forge = "14.23.5.2859"

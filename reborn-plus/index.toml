@@ -984,7 +984,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-filters.pw.toml"
-hash = "28df70f8e2b1804efd2edb80676785d7e74a1ac64af87d6ad139fc2c7e79b1d8"
+hash = "0654795c161631267215974295d00b220e84bec33ff9011bc43e9b6a6b6281ed"
 metafile = true
 
 [[files]]
@@ -1024,7 +1024,7 @@ metafile = true
 
 [[files]]
 file = "mods/truetype-font-replacement.pw.toml"
-hash = "30674cea5f3b9be2e72ce0330ae6e88e9a3e087a42562e74fa44ef1c1baadc27"
+hash = "8eddd01aed2f9df37e251a1be888b016d15dec2a08d15f9d6a6fb16075762f4c"
 metafile = true
 
 [[files]]
@@ -1054,7 +1054,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldeditcui-forge-edition-2.pw.toml"
-hash = "253da306ceb47df92358c3f2d1ccafbc660b03f930d09c7c17cdbd0f170057f1"
+hash = "75380be680c2de0385631495f5dba2d0bd98d999e60395ffb9062dc9213b3876"
 metafile = true
 
 [[files]]
