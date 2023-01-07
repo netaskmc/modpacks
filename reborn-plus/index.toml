@@ -773,11 +773,6 @@ hash = "abcac838c7e71b3243847f7d8cd19bc5ad1d539ed7e384dfe24b37d073d7471f"
 metafile = true
 
 [[files]]
-file = "mods/cursor-mod.pw.toml"
-hash = "5f59ab0055b1f2a6e1a910fbb1a0941d455d3ec396e4f63150951d46982166ab"
-metafile = true
-
-[[files]]
 file = "mods/draconic-evolution.pw.toml"
 hash = "ea5eb18a73607ffd04a198f654209855fb831abdcac646fe2411d77b0dea2f9e"
 metafile = true
