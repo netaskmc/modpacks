@@ -703,6 +703,11 @@ hash = "3606d6de09f7c5b7beb9f94cbde59c622fc05b6515513a9dea4bde31474d27b8"
 metafile = true
 
 [[files]]
+file = "mods/advanced-solar-panels.pw.toml"
+hash = "45f9ac4e2f2ee3c58d8f019796d4c1248f8915255a92838857117902c7a558b6"
+metafile = true
+
+[[files]]
 file = "mods/applied-energistics-2.pw.toml"
 hash = "c9711625615d000b33b2c8d2136cefb187933cdd2cfe798a6bcbc3d888cf051d"
 metafile = true
@@ -720,6 +725,11 @@ metafile = true
 [[files]]
 file = "mods/aroma1997s-dimensional-world.pw.toml"
 hash = "148b7aff1792c208cbc1ed6b9fc4c285c4c11e6caf6d141cc0d2f5da715b03df"
+metafile = true
+
+[[files]]
+file = "mods/baubles.pw.toml"
+hash = "2cc5f913400c0dfe460173edd1e5d9475a09774caf228f41c3e39eba252a7a19"
 metafile = true
 
 [[files]]
@@ -778,6 +788,11 @@ hash = "ea5eb18a73607ffd04a198f654209855fb831abdcac646fe2411d77b0dea2f9e"
 metafile = true
 
 [[files]]
+file = "mods/draconicadditions.pw.toml"
+hash = "2e133532a25212d98b2fcd33ac9c5ec5f2e012229117ebd3b165f63b32c7c4c7"
+metafile = true
+
+[[files]]
 file = "mods/dtphc.pw.toml"
 hash = "3bf8c73951670419fba5b7e367aeb9c67054355fc83b058b009a4f4bebdee75b"
 metafile = true
@@ -790,6 +805,11 @@ metafile = true
 [[files]]
 file = "mods/dynamictrees.pw.toml"
 hash = "f0f27347c95042dd12beb3ae98f6834922d05796e2108cf3d2e937612ee2aa50"
+metafile = true
+
+[[files]]
+file = "mods/dynmapforge.pw.toml"
+hash = "e3b4af9ab2be6b6927da288f9ed210ac2edaf191e88953d95be17709f51c347a"
 metafile = true
 
 [[files]]
@@ -935,6 +955,11 @@ metafile = true
 [[files]]
 file = "mods/practical-logistics-2.pw.toml"
 hash = "1f40058b5182500d29c287add5132b5004ab9d0a3f843402355fc0e9e29ec387"
+metafile = true
+
+[[files]]
+file = "mods/project-intelligence.pw.toml"
+hash = "6a1fdbd82220623df973bbff92795fe3bb91356a60d63f71c314e4700e6385cc"
 metafile = true
 
 [[files]]
