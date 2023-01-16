@@ -257,6 +257,10 @@ file = "config/compactsolars.cfg"
 hash = "9f00f807a1d11d9dc701de55f17fcabf7361026c65ed17a822c8452ff2832236"
 
 [[files]]
+file = "config/computronics.cfg"
+hash = "89981b410af439040d656b41fe58e3facd328feca072faa9c89b17719652be1f"
+
+[[files]]
 file = "config/cosmeticarmorreworked.cfg"
 hash = "3ed47797d8f4d53dde6786687f8a747fc7352b5945f2fd6fdf50fba42b9cd650"
 
@@ -642,7 +646,7 @@ hash = "2cd3adb83c1280fec8fbe013c54bbca2c9186af6134cca05c5b08c0be57c1e5a"
 
 [[files]]
 file = "config/theoneprobe.cfg"
-hash = "ade5857d6db395f85c17c1bc6420c995baacba9c872447da59988ce035fcf02b"
+hash = "1a1caad7858e6b2607a11c8b4ac9e0172be39eabe89262433fb8548e9994be60"
 
 [[files]]
 file = "config/topaddons.cfg"
@@ -708,6 +712,16 @@ hash = "45f9ac4e2f2ee3c58d8f019796d4c1248f8915255a92838857117902c7a558b6"
 metafile = true
 
 [[files]]
+file = "mods/ae-additions-extra-cells-2-fork.pw.toml"
+hash = "ec57ba40845c668483e987f4329ad90eeaefc51df4660a3b84a02118c9fcdfb1"
+metafile = true
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+hash = "ffbb4bb97f53e5d6f005887b6297acf4274bed2e8e88625fc2d1e61a416afb26"
+metafile = true
+
+[[files]]
 file = "mods/applied-energistics-2.pw.toml"
 hash = "c9711625615d000b33b2c8d2136cefb187933cdd2cfe798a6bcbc3d888cf051d"
 metafile = true
@@ -743,6 +757,11 @@ hash = "bf615adaabcb307b15814a8b4ac9f2dcbda46dc983f3c8e958432b2ed133b37a"
 metafile = true
 
 [[files]]
+file = "mods/carry-on.pw.toml"
+hash = "7f3ac589996f3c42b177ae4b947b9c103ad170052256c5ef099a164dc3ece4fc"
+metafile = true
+
+[[files]]
 file = "mods/chisels-bits.pw.toml"
 hash = "135b0e09118ee0819ba56ea4e89c95b1de95255ea8199af6e3b81cf7802ba540"
 metafile = true
@@ -768,6 +787,11 @@ hash = "c91e9bd1f944d41f57506f289fb43d4cb9dbf7e53d1b51c746bad7a34b31498c"
 metafile = true
 
 [[files]]
+file = "mods/computronics.pw.toml"
+hash = "58334872782fa8cd0d430347a3eda41524c26a60ec3086dd06b24c94a15b34e6"
+metafile = true
+
+[[files]]
 file = "mods/coroutil.pw.toml"
 hash = "d17527467cbe5945e5424a2920912890cc047b8e779f702a665c8b27caf50453"
 metafile = true
@@ -780,6 +804,11 @@ metafile = true
 [[files]]
 file = "mods/craftpresence.pw.toml"
 hash = "abcac838c7e71b3243847f7d8cd19bc5ad1d539ed7e384dfe24b37d073d7471f"
+metafile = true
+
+[[files]]
+file = "mods/crafttweaker.pw.toml"
+hash = "586a89f27eec933e166c5e1fb90f0909b9f2b219419a432aaad1e1c8865edd28"
 metafile = true
 
 [[files]]
@@ -918,6 +947,11 @@ hash = "620540c2479bfdf6826bfa6d5f11f766582bbfc681f3b1235a37f72ac7f4a88f"
 metafile = true
 
 [[files]]
+file = "mods/morpheus.pw.toml"
+hash = "3800d2d04ee10b3455a7f8527672086440269ba7a5993f31f1b85edf886f787f"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "30746e92b44351d3365fa5aa6e43b623476c91116fb8b9f88b7233339d3c9f43"
 metafile = true
@@ -988,6 +1022,11 @@ hash = "537667da8b18765eb6b6a4041ca23651f1c7b16caf1b206992012ffdf7df2ed4"
 metafile = true
 
 [[files]]
+file = "mods/shadowfacts-forgelin.pw.toml"
+hash = "3fc16d41893803e4afd4ddb2b981ed360081cea152a21f9783aac3bae182f6fc"
+metafile = true
+
+[[files]]
 file = "mods/signpost.pw.toml"
 hash = "b8128bcc44734404f003610c37a00d67f76182a999939231d8c2e202f694bc74"
 metafile = true
@@ -1015,6 +1054,11 @@ metafile = true
 [[files]]
 file = "mods/the-one-probe.pw.toml"
 hash = "260f0330b42aa9e33b8fb8165d06f64d29540b42f121dc9746c6ebcb7ef55158"
+metafile = true
+
+[[files]]
+file = "mods/thermal-dynamics.pw.toml"
+hash = "4379e8df5433332fee2b3c351eaf9d281581cdd3ff4340a4a466e497de8eb41b"
 metafile = true
 
 [[files]]
@@ -1091,3 +1135,7 @@ metafile = true
 file = "mods/zerocore.pw.toml"
 hash = "424ed75337a2834cae6e318d47c9c1d57b9e08ae4f1e10db09160b84da320ecd"
 metafile = true
+
+[[files]]
+file = "scripts/recipes.zs"
+hash = "2e3551cb5ba30a0404b9a49cad4f6ade0f9a8413b31b25fe71532b12cab30b7b"
