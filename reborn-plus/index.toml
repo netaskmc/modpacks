@@ -173,6 +173,10 @@ file = "config/buildcraft/objects.cfg"
 hash = "0e65354b3ff70612a68b2891f31b0a6964254ecf1cf97b4d60e65cf3b4753587"
 
 [[files]]
+file = "config/carryon.cfg"
+hash = "df81c2af043e262599d14e99fdace26c77049211d4eefe9a62cbfd765c876c38"
+
+[[files]]
 file = "config/chiselsandbits.cfg"
 hash = "c45bea58dfc84b743aef2b4c38728e5df6c2af7bf03745e737dc6dc0cc818b6e"
 
