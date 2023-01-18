@@ -137,8 +137,12 @@ file = "config/brandon3055/Custom Fusion Recipe Info.txt"
 hash = "2fc2fcae04de5d51c5eea00a421073228ca23284accf37442321d05b54291f75"
 
 [[files]]
+file = "config/brandon3055/DraconicAdditions.cfg"
+hash = "5b9bfe4bf426a7c45e4e03ad7fdd100c32035017862ffb9a58b9cec1bbb95bc4"
+
+[[files]]
 file = "config/brandon3055/DraconicEvolution.cfg"
-hash = "2c4542f045d829efe4818a5e859f7983c7619260d59f1b230050960f2c88cf08"
+hash = "f794862dbef818dab68043b29fa175e2a6580917cb8a2550928b20f186b09c30"
 
 [[files]]
 file = "config/brandon3055/ProjectIntelligence/ModDocs/Draconic Evolution/draconicevolution-en_US.xml"
@@ -174,7 +178,7 @@ hash = "0e65354b3ff70612a68b2891f31b0a6964254ecf1cf97b4d60e65cf3b4753587"
 
 [[files]]
 file = "config/carryon.cfg"
-hash = "df81c2af043e262599d14e99fdace26c77049211d4eefe9a62cbfd765c876c38"
+hash = "fddb80081b9e7ad1d7838d31bbbfd9d652462484440744616f921a3b5aa042fe"
 
 [[files]]
 file = "config/chiselsandbits.cfg"
@@ -510,7 +514,7 @@ hash = "900d4766e30fc429a5429ae42528cc8df7e70bdab2613274d8fa5e149921d4e2"
 
 [[files]]
 file = "config/mtsconfig.json"
-hash = "99212389b8294ef31580d4d02c73368799512e5772fb5d845b397333f1a750a6"
+hash = "ce533b326651e976aaeda8291c05f9b1ff835545129bd482004370dda73075da"
 
 [[files]]
 file = "config/mtsconfigclient.json"
@@ -813,6 +817,11 @@ metafile = true
 [[files]]
 file = "mods/crafttweaker.pw.toml"
 hash = "586a89f27eec933e166c5e1fb90f0909b9f2b219419a432aaad1e1c8865edd28"
+metafile = true
+
+[[files]]
+file = "mods/customskinloader.pw.toml"
+hash = "daedd78324e36e30974f8cfedcf8fbeb37b1ff234b4b4ff7efee1938349c0f9a"
 metafile = true
 
 [[files]]

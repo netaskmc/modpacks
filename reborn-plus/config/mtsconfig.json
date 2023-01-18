@@ -224,7 +224,9 @@
         "biodiesel": 0.8,
         "fuel_dense": 1.0,
         "fuel_dense_heat_1": 1.0,
-        "fuel_dense_heat_2": 1.0
+        "fuel_dense_heat_2": 1.0,
+		"refined_fuel": 1.0,
+		"refined_biofuel": 0.5
       },
       "furnace": {
         "lava": 1.0,
@@ -235,14 +237,19 @@
         "gasoline": 1.0,
         "fuel_gaseous": 2.0,
         "fuel_gaseous_heat_1": 2.0,
-        "fuel_gaseous_heat_2": 2.0
+        "fuel_gaseous_heat_2": 2.0,
+		"refined_fuel": 1.0,
+		"refined_biofuel": 0.5
       },
       "gasoline": {
         "gasoline": 1.0,
         "ethanol": 0.85,
         "fuel_light": 1.0,
         "fuel_light_heat_1": 1.0,
-        "fuel_light_heat_2": 1.0
+        "fuel_light_heat_2": 1.0,
+		"refined_fuel": 1.0,
+		"refined_biofuel": 0.5,
+		"ic2biogas": 0.5
       }
     },
     "lastLoadedFluids": {
@@ -267,6 +274,7 @@
       "fluid_booze_purple_wine_potent": "Purple Grape Wine Potent",
       "fluid_cheese_appenzeller": "Appenzeller Cheese",
       "fluid_booze_purple_portwine": "Purple Port Wine",
+      "yellorium": "Fluid Yellorium",
       "oil_heavy_heat_1": "Heavy Oil (§6Hot§r)",
       "fluid_booze_hopale_poisoned": "Ale",
       "oil_heat_1": "Oil (§6Hot§r)",
@@ -297,6 +305,7 @@
       "ic2air": "Air",
       "fluid_booze_apple_cider_poisoned": "Apple Cider",
       "fluid_booze_hopale_young": "Ale Wort",
+      "fuelcolumn": "fluid.fuelcolumn",
       "fluid_booze_sake_mash": "Sake Mash",
       "refined_oil": "Naphtha",
       "fluid_booze_red_ambrosia": "Red Ambrosia",
@@ -349,6 +358,7 @@
       "fluid_booze_sake_fermented": "Sake",
       "fluid_booze_lager_poisoned": "Lager",
       "fluid_cheese_gorgonzola": "Gorgonzola Cheese",
+      "cyanite": "Fluid Cyanite",
       "fluid_booze_green_juice": "Green Grape Juice",
       "fluid_booze_purple_wine_extended": "Purple Grape Wine Extended",
       "fluid_cheese_ricotta": "Ricotta Cheese",
