@@ -1655,6 +1655,11 @@ hash = "5f9870a1b70f585f7ca5ca97d5369056f6f6ab84d9897a35b545b0311e69c213"
 metafile = true
 
 [[files]]
+file = "mods/ntservapi.pw.toml"
+hash = "e18ddb7d49d728cd41b5479a4d2e5e812f5b4ca52bab794146d584d49a139b10"
+metafile = true
+
+[[files]]
 file = "mods/oculus.pw.toml"
 hash = "4a68abb339f8993d6e5809fe0255752837176dff9a28c27b70dfd9da939bf410"
 metafile = true

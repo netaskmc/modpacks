@@ -1,0 +1,8 @@
+name = "NeTask Server API"
+filename = "ntservapi-1.0-SNAPSHOT.jar"
+side = "server"
+
+[download]
+url = "https://github.com/netaskmc/server-api-client/releases/download/1.0-SNAPSHOT/ntservapi-1.0-SNAPSHOT.jar"
+hash-format = "sha1"
+hash = "68fc42d0e30cca3a129e3aede15bec099102f2c2"
