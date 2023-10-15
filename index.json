@@ -1,0 +1,26 @@
+[
+  {
+    "name": "NeTask Mechanic",
+    "author": "NeTask Collective",
+    "id": "mechanic",
+    "versions": {
+      "pack": "1.0.0",
+      "pw": "packwiz:1.1.0",
+      "mc": "1.20.1",
+      "forge": "47.2.1"
+    },
+    "modCount": 73
+  },
+  {
+    "name": "NeTask Reborn+",
+    "author": "NeTask Collective",
+    "id": "reborn-plus",
+    "versions": {
+      "pack": "1.2.2",
+      "pw": "packwiz:1.1.0",
+      "mc": "1.12.2",
+      "forge": "14.23.5.2859"
+    },
+    "modCount": 89
+  }
+]
