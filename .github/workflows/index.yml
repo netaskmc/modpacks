@@ -1,0 +1,35 @@
+name: Generate and Push Index JSON
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-and-push-index:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "18.x"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate index.json
+        run: node .github/workflows/generate-index.js
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update index.json"
+          commit_options: "--no-verify"
+          file_pattern: "index.json"
+          branch: ${{ github.ref }}
+          commit_user_name: "GitHub Actions"
+          commit_user_email: "actions@github.com"
