@@ -3,6 +3,7 @@
     "name": "NeTask Mechanic",
     "author": "NeTask Collective",
     "id": "mechanic",
+    "icon": "mechanic/pack.jpg",
     "versions": {
       "pack": "1.0.0",
       "pw": "packwiz:1.1.0",
@@ -12,9 +13,10 @@
     "modCount": 73
   },
   {
-    "name": "NeTask Reborn+",
+    "name": "NeTask Reborn+ (aka KAMAZCraft)",
     "author": "NeTask Collective",
     "id": "reborn-plus",
+    "icon": "reborn-plus/pack.jpg",
     "versions": {
       "pack": "1.2.2",
       "pw": "packwiz:1.1.0",
