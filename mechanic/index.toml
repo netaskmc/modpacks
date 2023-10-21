@@ -1656,7 +1656,7 @@ metafile = true
 
 [[files]]
 file = "mods/ntservapi.pw.toml"
-hash = "e18ddb7d49d728cd41b5479a4d2e5e812f5b4ca52bab794146d584d49a139b10"
+hash = "072c5262774863ee84a394f060855261786da394fc6cd5c91b887fa71942d29b"
 metafile = true
 
 [[files]]
@@ -1736,7 +1736,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "a78de1db76195901cb6286ae14f5f504aa68fc487770b97e66a99d9c6c81dd23"
+hash = "eb1e82493caee495ac763d0e7f0a668c95c0795cbee217b921e27f1d81d1d402"
 metafile = true
 
 [[files]]
@@ -1788,3 +1788,7 @@ metafile = true
 file = "mods/xaeros-world-map.pw.toml"
 hash = "2cfbef78ef28591ebb47ae979dc507d70c9b7d52f2c78e3034a61d4732a2bb68"
 metafile = true
+
+[[files]]
+file = "pack.jpg"
+hash = "57ef61a564ec93afc7fb9c840fca9d3b19e2fc05030fa8c64194fc0f1f3a31f6"
