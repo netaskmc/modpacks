@@ -1518,6 +1518,11 @@ hash = "e357fc625123177d04155eb3edf66a42cc8524aa86410dbb09e857ce036a074b"
 metafile = true
 
 [[files]]
+file = "mods/create-trimmed.pw.toml"
+hash = "650bb01ab2e62006652c079d212023a26db63baf6667537c139bec0f17ac44a6"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "6ecc31d75d379730df8fe950438b4ca26ed1daa8612406374552665f9222f9ea"
 metafile = true
@@ -1545,6 +1550,11 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "49b79603523451f9beb1030d89d9e332b15d8e902ecc3f33901c1b25b8d2e8dd"
+metafile = true
+
+[[files]]
+file = "mods/extrasoundsforge.pw.toml"
+hash = "726749e334d00343ef5177ff60ffbaca9514706855adcbface1b3683147f4ff7"
 metafile = true
 
 [[files]]
@@ -1618,6 +1628,11 @@ hash = "eb156c89b37c02ca60e6ae884b33c92c5db7bd7cb90a6f9f0995b0e766bd0345"
 metafile = true
 
 [[files]]
+file = "mods/patchouli.pw.toml"
+hash = "4d0b66ba4cb3c2965bf961d4bb991babb6a60f8a20709d1e295ed7fc8b6d8929"
+metafile = true
+
+[[files]]
 file = "mods/prism-lib.pw.toml"
 hash = "6ecef50adee11c1e2cc95436846653632af4977045be8496529976ab3aba7323"
 metafile = true
@@ -1625,6 +1640,21 @@ metafile = true
 [[files]]
 file = "mods/probejs.pw.toml"
 hash = "1088567cedab87783adf2f0a47964e09eb5b574eedf613ecae2a127c1a88ea92"
+metafile = true
+
+[[files]]
+file = "mods/qraftys-bamboo-villages.pw.toml"
+hash = "abafff388dbde8fd224535a83c438212f4e49a38901b93549e58b23885e644b0"
+metafile = true
+
+[[files]]
+file = "mods/qraftys-japanese-villages.pw.toml"
+hash = "f131578823dcc2219ec92c7af06564c2067ad98219d8b22eada773904d17c1af"
+metafile = true
+
+[[files]]
+file = "mods/qraftys-jungle-villages.pw.toml"
+hash = "e0c6ddac8ecd1dce3b71383b3ce19f44d2afba061bba9637e1d8b63de0d1ca91"
 metafile = true
 
 [[files]]

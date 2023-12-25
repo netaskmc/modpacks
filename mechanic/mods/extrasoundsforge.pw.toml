@@ -1,0 +1,13 @@
+name = "ExtraSounds Forge"
+filename = "extrasounds-1.1-1.20.1-forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/jv7tzVE4/versions/1sIaM83Q/extrasounds-1.1-1.20.1-forge.jar"
+hash-format = "sha1"
+hash = "aeeb2b963385f108ef5316a1ff2210f6afca5ca9"
+
+[update]
+[update.modrinth]
+mod-id = "jv7tzVE4"
+version = "1sIaM83Q"

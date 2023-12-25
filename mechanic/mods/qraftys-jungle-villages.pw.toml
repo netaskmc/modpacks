@@ -1,0 +1,13 @@
+name = "qrafty's Jungle Villages"
+filename = "qraftys-jungle-villages-1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qSvzu3X3/versions/aNZgCrn8/qraftys-jungle-villages-1.jar"
+hash-format = "sha1"
+hash = "bc1c47cbcb7ad9cf1192ff4a24348036ff1c83d4"
+
+[update]
+[update.modrinth]
+mod-id = "qSvzu3X3"
+version = "aNZgCrn8"
