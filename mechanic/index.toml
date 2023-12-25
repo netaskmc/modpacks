@@ -6,7 +6,7 @@ hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
 file = "config/ad_astra.jsonc"
-hash = "4497616b9d09c26c3afaf49f0b3771728a4ba16773169c1254e7e4c3674ff8c0"
+hash = "27be9144aa75a528e54466a3ca99540eea2dc32ac99deacc3974a8ee938e87bc"
 
 [[files]]
 file = "config/advancementplaques-common.toml"
@@ -14,7 +14,7 @@ hash = "328e19012802308709191b9bdca49d48eecf5da2a1c9cab03fe0ea6768c74c82"
 
 [[files]]
 file = "config/ambientsounds-client.json"
-hash = "45b66fdc282bb1ed35b3f0d7ed4c93dbe6215c6af1e063027714c1e3d8b46f70"
+hash = "da4820cfe6ae614336005a28f39c8c3cbed0b65d652c623ce918c8b93fd42229"
 
 [[files]]
 file = "config/appleskin-client.toml"
@@ -22,7 +22,7 @@ hash = "b477c8c493b28366a6b282f29f46c9415e3a4a2a23fff6e09331644c435dfd48"
 
 [[files]]
 file = "config/ars_nouveau-client.toml"
-hash = "34a1c9adcbd425a24df2ea398499fbad1250f18cc97589cf8f9f3de2d7c424fb"
+hash = "071f2a8299ca3ceb6e7999291ecdcfb7809e25829e98d717c9d0997cdd87c7dc"
 
 [[files]]
 file = "config/ars_nouveau-common.toml"
@@ -345,6 +345,10 @@ file = "config/ars_nouveau/glyph_wither.toml"
 hash = "6f12843a50141377f8ab5cd8f3f14d5f9d0d3044fd182047ef014fdb9ba4925e"
 
 [[files]]
+file = "config/blur-client.toml"
+hash = "5d1f67d3dabefcc6eed0b1ac4074e79e6d918f000691f2c727f4d8739f6f59e7"
+
+[[files]]
 file = "config/blur.json"
 hash = "9acc8c727513914f7f4e90cacbadbeb381017af8d2eef3ca3f1fd6e3e6d13368"
 
@@ -362,7 +366,7 @@ hash = "74a4490a9e22547861cccba0a9cf729be26b2a482ca3fd2c694ea0f4d08e77f2"
 
 [[files]]
 file = "config/craftpresence.json"
-hash = "6cc2716f3cbf73fec8b9f816800fb0767166409ac2823c22715c9dc766713527"
+hash = "aa30b95e9c6006b1a8662bbe5a59d6aced4cf445a804af33af387441cd8236e8"
 
 [[files]]
 file = "config/create-client.toml"
@@ -378,7 +382,7 @@ hash = "e8945a7750a4f28cf2e116fb20937ea99e416b98b33c8b1df69c32508e01e05d"
 
 [[files]]
 file = "config/create_jetpack-client.toml"
-hash = "2c9992e7dca1ad80dc2a5677b240c4e4c8d9490d9b5cdb86b40dc0909b0f0e04"
+hash = "3ef10cf780e735b417be86d1ef29bb72fc9257250a4d5224bf9168d4978e93c9"
 
 [[files]]
 file = "config/create_jetpack-common.toml"
@@ -390,7 +394,7 @@ hash = "6c43ef83a82c7bfb82f3f5fc39bcdd9fe1cf56c76ca035971cc067f99153fbad"
 
 [[files]]
 file = "config/create_new_age-common.toml"
-hash = "1111b95c6f4bb3c18a1deabab8745680d5272650daa871ea35b283d9baa92566"
+hash = "1dd082d82a293ccd41513d425805fb6932c5b97e5aeebd6fd46b3b395981c4f2"
 
 [[files]]
 file = "config/createoreexcavation-common.toml"
@@ -399,6 +403,14 @@ hash = "d2bef136c958a76f0f394400c8084ae25167c43c08e1480ca040f412b8375185"
 [[files]]
 file = "config/curios-client.toml"
 hash = "9c0985b85e67e704a3640d028186dc0b220fa69404b9555244add55eaf5d4794"
+
+[[files]]
+file = "config/embeddium-mixins.properties"
+hash = "28e5b8f2e7d93aa4a086c908e6fe135055d1ebda0eb5465d165e1d3790f34a1b"
+
+[[files]]
+file = "config/embeddium-options.json"
+hash = "a1e7d43765a44052156c913fcc99c8746ee422de8b8f31665dd4225a84f10fc4"
 
 [[files]]
 file = "config/entityculling.json"
@@ -430,7 +442,7 @@ hash = "7bc724152ad613fc492e7439074edeed178bc3405fc80a741add5ab562626684"
 
 [[files]]
 file = "config/immediatelyfast.json"
-hash = "b19dee2c49662c61a7899ee5f545fb788015c3c00c8e7ec3401c77efcb6a9008"
+hash = "645b87f55cf42c04dbab8f76dc7f3173a510ffdc712305fc62371ebac07fed1e"
 
 [[files]]
 file = "config/legendarytooltips-common.toml"
@@ -442,11 +454,15 @@ hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "f342f34f7d3587c481d613e08457241b794ed7b3a4a2ed2560b8663109a55b3b"
+hash = "2ccfa861c2972c2c1a433340aae0f3580ddc548f50185a56b39fa8bfa1508d79"
+
+[[files]]
+file = "config/ntservapi-common.toml"
+hash = "a0c9e0ee5a2eeed56d3432ca111d19634075d199ff02bcb1b0d232c40f04499d"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "e498e123169ab4d3046ca952f2447fea9e26975a7c0719fa073999f77dad7cd5"
+hash = "d08792ae8ccb4a4ec6bbf7e88ece7ef263546fc06531ce440750cc0ded333f93"
 
 [[files]]
 file = "config/railways-client.toml"
@@ -470,7 +486,7 @@ hash = "8d3828692497be68d54e98820db28df65ef79b28f16ec4ebeef0e0916588dd8e"
 
 [[files]]
 file = "config/roughlyenoughitems/config.json5"
-hash = "b4ef6ace7c2af656cef29eaf17596988b869976e5188342915c371d0d87c2b96"
+hash = "ae0f2ca4d7718bc5bde66c6d390c5c2fe0c96e4817878f6739297fa3b6685b9e"
 
 [[files]]
 file = "config/roughlyenoughitems/hints.json"
@@ -478,11 +494,11 @@ hash = "7c293299262ba36500fa25a18d7566748915808225d5151a0f8819a79b62a6c0"
 
 [[files]]
 file = "config/roughlyenoughitems/pinyin.properties"
-hash = "2e2d361db012805ec7058cb01fd1e91b462041b4f5280ec30c85e9372696575f"
+hash = "c7f6b1e7ec3752b1554033d0f2ffa7b6ffd87665c7bd34f2cbeb07e1f509faad"
 
 [[files]]
 file = "config/roughlyenoughitems/pinyin_double.properties"
-hash = "42f899d667825bf1e30e382aa7e9f0b33aeb5da2b6b7acd7466c1cca55763d59"
+hash = "c089082a0aaaf981f3653c043fd6e3480b2545e63b54cd36d8bb7d45e7f8c86b"
 
 [[files]]
 file = "config/rubidium-mixins.properties"
@@ -517,20 +533,24 @@ file = "config/sophisticatedcore-client.toml"
 hash = "06813199751af809ce5043408f99066b30dccfa72b2597d74543dfa6b64e8d36"
 
 [[files]]
+file = "config/sophisticatedcore-common.toml"
+hash = "ca3e28d619b793467d9020ba5130f95fdac28195dd4f14514aa075ead9b6ac05"
+
+[[files]]
 file = "config/sound_physics_remastered/allowed_sounds.properties"
 hash = "1eb7c0984d46adca7f9cd883c950200f61726812a6854d16891a3aeda09ea140"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "176b5de6adea9cae9fb2e35a4fa8553b1116ad52b8814d56468751f41f234af9"
+hash = "fe41e1c854ee87a26fd94ddd5064fe7c95225ae02deef639e116547e595e5c47"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "e031741cf8670aa6a90a703c3ca57420024e84c98002bb5ba93e5482c26386db"
+hash = "abd38492d90b9f8127f7aabc1fa8d19266670b57bf87bd4e0b6b918973ad9031"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
-hash = "b30022fe747af5b629b8fa148f3ef354e9bc3e72c7e1c46cd292275eb6658801"
+hash = "f58665f72b1c10a008902b8ce40b845487cdd66f839559b0777f78221605604a"
 
 [[files]]
 file = "config/storagedrawers-client.toml"
@@ -558,11 +578,11 @@ hash = "d5d16554adbcfb673d2b1993129ddbb71d1addefe82bc4635621d651cad024a2"
 
 [[files]]
 file = "config/voicechat/voicechat-client.properties"
-hash = "c5100911179106a0215407e5da2cc1bb3b798d26661a95bc8944b6ded4a052a9"
+hash = "4f09ac97874e0e20203019f21daf0188066ccebf304ff822e362e6ccc37dd6b8"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
-hash = "288360d07b7b6cb3d4e9173370419a0575e98e7c8eef9bc0d4bcb6adb8fa2b9a"
+hash = "a6ccb920ca8ab499dc44fe0b955c9eb976d51b320c037f7ef425b568fd387056"
 
 [[files]]
 file = "config/voicechat/voicechat-volumes.properties"
@@ -570,7 +590,7 @@ hash = "58242ef3075b166845e0081281b01113a55b9d095104a68b167e7b4bc08b87c5"
 
 [[files]]
 file = "config/waila/blacklist.json"
-hash = "4eb0f10909d1291b768a302898e70e3f1dbd9e03f93cf7a8b45fbc3cd1dd20a1"
+hash = "24079825d0e3de4c8faf51592599b1d4e0c1d454f4a1102187022bea5779a0b6"
 
 [[files]]
 file = "config/waila/blacklist.json_2023.10.14.01.40.00"
@@ -594,7 +614,7 @@ hash = "45d1726a9890211fbd0ad2ce4031d45964aae8d7e2c812a21e9716b1f17e9d5b"
 
 [[files]]
 file = "config/waila/waila.json"
-hash = "9404ad8fc705f2e979c59feb1e465323732db22348ff8affeb4054d3037c2411"
+hash = "4bc480522321e97d5faf433402505bc6add43d3d0bb8fc2003b457d15decf369"
 
 [[files]]
 file = "config/waila/waila_plugins.json"
@@ -606,11 +626,11 @@ hash = "1dcee38470c2939f7265891203775b7631c81822bf2506a451727fcaaf2cc4a2"
 
 [[files]]
 file = "config/xaerominimap.txt"
-hash = "489fc2bddab7d4057ef3ce61ebea32c2766b2713ef738a26920b181cf084cf13"
+hash = "5a903fec005ea6d3fcca149fd7295c1927849f1efe09b64210deab591e41597c"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "c171c499485be4b4f4d714abe610cc94b96715f24ae7e824b8887171860ea8f9"
+hash = "f1d1bf66e4f79edffd84e01bc9173195e2494db832dcc7fb4f203583fda0b0e1"
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -622,7 +642,7 @@ hash = "103979a8e59e396f99fb8646c4f8a690c2d743ca3744a2eb8f663b3102b7498c"
 
 [[files]]
 file = "config/xaeroworldmap.txt"
-hash = "f7319a6908aa35590c58a056257b81f5abab902f3d0016e64ce8713eb8f75990"
+hash = "6028733f967d0d0f6a80dd236d3dcc7d2446912c719ab9a7d3f83d8624d9b92d"
 
 [[files]]
 file = "kubejs/README.txt"
