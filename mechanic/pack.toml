@@ -1,12 +1,12 @@
 name = "NeTask Mechanic"
 author = "NeTask Collective"
-version = "1.0.0"
+version = "1.0.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "88ae3c2463a6af66c9f23999a92573731ab0f0288ba5fa3443886cd22847bcc7"
+hash = "2a7eb05b71f28e2bc16fc111a4b3432e3d5d5562c78832e617da779f8bb5bf08"
 
 [versions]
 forge = "47.2.1"

@@ -29,4 +29,19 @@ ReactorRodHeatLoss = 25.0
 #Multiplier for how much heat solar panels output.
 #Range: 0.0 ~ 1.7976931348623157E308
 solarPanelHeatMultiplier = 1.0
+#Multiplier for how much heat pipes obtain from passive heat sources like Lava or even Boilers.
+#Range: 0.0 ~ 1.7976931348623157E308
+passiveHeatSourceMultiplier = 1.0
+#How much heat do pipes loose per second.
+#Range: 0.0 ~ 1.7976931348623157E308
+passivePipeHeatLoss = 1.0
+#Multiplier for how much heat a boiler needs.
+#Range: 0.0 ~ 1.7976931348623157E308
+boilerRequiredHeatMultiplier = 1.0
+#Maximum wire length
+#Range: > 1
+maxWireLength = 16
+#Maximum motor SU multiplier
+#Range: 0.0 ~ 1.7976931348623157E308
+motorSuMultiplier = 1.0
 

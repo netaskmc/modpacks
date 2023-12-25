@@ -14,7 +14,7 @@
     "detectDimensionData": false,
     "detectWorldData": true,
     "clientId": "565766884205527050",
-    "defaultIcon": "Mlntcandy",
+    "defaultIcon": "mechanic",
     "enableJoinRequests": false,
     "partyPrivacyLevel": 1,
     "preferredClientLevel": 3,
@@ -38,7 +38,7 @@
     }
   },
   "serverSettings": {
-    "fallbackServerIcon": "default",
+    "fallbackServerIcon": "mechanic",
     "fallbackServerName": "Minecraft Server",
     "fallbackServerMotd": "A Minecraft Server",
     "serverData": {
@@ -158,8 +158,8 @@
       "useAsMain": false,
       "details": "{getFirst(menu.message, dimension.message)}",
       "gameState": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
-      "largeImageKey": "{getFirst(menu.icon, dimension.icon)}",
-      "largeImageText": "{getFirst(menu.message, dimension.message)}",
+      "largeImageKey": "mechanic",
+      "largeImageText": "NeTask Mechanic",
       "smallImageKey": "{getFirst(server.icon, pack.icon)}",
       "smallImageText": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
       "startTimestamp": "{data.general.time}",
