@@ -1,0 +1,8 @@
+{
+  "name": "Карта",
+  "icon": "minecraft:filled_map",
+  "category": "patchouli:keybinds",
+  "pages": [
+    "$(li)<kbd>gui.xaero_open_settings</kbd> - Настройки карты$(li)<kbd>gui.xaero_minimap_settings</kbd> - Настройки миникарты$(li)<kbd>gui.xaero_open_map</kbd> - Открыть карту$(li)<kbd>gui.xaero_enlarge_map</kbd> - Увеличить карту$(li)<kbd>gui.xaero_waypoints_key</kbd> - Меню меток$(li)<kbd>gui.xaero_new_waypoint</kbd> - Создать метку$(li)<kbd>gui.xaero_instant_waypoint</kbd> - Мгновенная метка"
+  ]
+}

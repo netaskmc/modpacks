@@ -1,0 +1,9 @@
+{
+  "name": "Голосовой чат",
+  "icon": "computercraft:speaker",
+  "category": "patchouli:keybinds",
+  "pages": [
+    "$(li)<kbd>push_to_talk</kbd> - Держи, чтобы говорить$(li)<kbd>whisper</kbd> - Держи, чтобы шептать<sep />$(li)<kbd>mute_microphone</kbd> - Выключить микрофон$(li)<kbd>hide_icons</kbd> - Спрятать / показать значки войсчата<sep />$(li)<kbd>voice_chat</kbd> - Меню голосового чата",
+    "В модпаке присутствует голосовой чат, который можно использовать для общения с другими игроками. $(br2)Для этого нужно зажать клавишу <kbd>push_to_talk</kbd> и говорить в микрофон.$(br2)Чтобы шептать, используйте <kbd>whisper</kbd>."
+  ]
+}

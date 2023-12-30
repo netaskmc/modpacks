@@ -1,0 +1,15 @@
+{
+  "name": "NeTask Mechanic: гид",
+  "landing_text": "Добро пожаловать в NeTask Mechanic!",
+  "version": 1,
+  "creative_tab": "minecraft:tools_and_utilities",
+  "use_resource_pack": false,
+  "model": "patchouli:book_blue",
+  "macros": {
+    "<kbd>": "$(#358)[$(k:",
+    "</kbd>": ")]$()",
+    "<sep />": "$(br)$(#aa8)====================$()"
+  },
+  "show_progress": false,
+  "use_blocky_font": true
+}
