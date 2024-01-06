@@ -462,7 +462,11 @@ hash = "a0c9e0ee5a2eeed56d3432ca111d19634075d199ff02bcb1b0d232c40f04499d"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "d08792ae8ccb4a4ec6bbf7e88ece7ef263546fc06531ce440750cc0ded333f93"
+hash = "ceffc399bf3b04d1cda9003c0673013376a84a94ba78abb8495819e3a48df61d"
+
+[[files]]
+file = "config/patchouli-client.toml"
+hash = "d289f4c7540e3e24bcf6bbf3f5a2aaaf87ccf58027d2213e40497fc627422068"
 
 [[files]]
 file = "config/railways-client.toml"
@@ -494,11 +498,11 @@ hash = "7c293299262ba36500fa25a18d7566748915808225d5151a0f8819a79b62a6c0"
 
 [[files]]
 file = "config/roughlyenoughitems/pinyin.properties"
-hash = "c7f6b1e7ec3752b1554033d0f2ffa7b6ffd87665c7bd34f2cbeb07e1f509faad"
+hash = "a098e8db56fda22e6518e35a0f8bda43d8173440d272113eddf30d3cf4e79244"
 
 [[files]]
 file = "config/roughlyenoughitems/pinyin_double.properties"
-hash = "c089082a0aaaf981f3653c043fd6e3480b2545e63b54cd36d8bb7d45e7f8c86b"
+hash = "28e5defb006c4f1ef848d1e3de1fda332e0c637bf916fc9312cc40b82cab2eff"
 
 [[files]]
 file = "config/rubidium-mixins.properties"
@@ -538,15 +542,15 @@ hash = "ca3e28d619b793467d9020ba5130f95fdac28195dd4f14514aa075ead9b6ac05"
 
 [[files]]
 file = "config/sound_physics_remastered/allowed_sounds.properties"
-hash = "1eb7c0984d46adca7f9cd883c950200f61726812a6854d16891a3aeda09ea140"
+hash = "0c12da3df5cc9600e1c80cc81855da58e8c13bde600be9903d03b9058f9169a4"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "fe41e1c854ee87a26fd94ddd5064fe7c95225ae02deef639e116547e595e5c47"
+hash = "e2177f381c4647cecb772c0dc2b4f0831a46fb4651cd19d996de44b69b0f33c9"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "abd38492d90b9f8127f7aabc1fa8d19266670b57bf87bd4e0b6b918973ad9031"
+hash = "91a9d80e7a06287533a3a5a934ef5e3a98890f2102bd99b26fe6c82550b5a3bf"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -578,7 +582,7 @@ hash = "d5d16554adbcfb673d2b1993129ddbb71d1addefe82bc4635621d651cad024a2"
 
 [[files]]
 file = "config/voicechat/voicechat-client.properties"
-hash = "4f09ac97874e0e20203019f21daf0188066ccebf304ff822e362e6ccc37dd6b8"
+hash = "4886ac677c82aeb95d9dad8f10e295ce4b7aff45b69d6ddd5eb075d51b615805"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
@@ -630,7 +634,7 @@ hash = "5a903fec005ea6d3fcca149fd7295c1927849f1efe09b64210deab591e41597c"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "f1d1bf66e4f79edffd84e01bc9173195e2494db832dcc7fb4f203583fda0b0e1"
+hash = "250ecb6eae7bd4d65ea0ec2ec7512974b5d94296768fd51e4103d5b65fe5843e"
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -1770,3 +1774,27 @@ metafile = true
 [[files]]
 file = "pack.jpg"
 hash = "57ef61a564ec93afc7fb9c840fca9d3b19e2fc05030fa8c64194fc0f1f3a31f6"
+
+[[files]]
+file = "patchouli_books/ntmech_guide/book.json"
+hash = "7f5266288a89a316ffd7a25a8f66ffd33fb0b6909060f81652078e82ead89142"
+
+[[files]]
+file = "patchouli_books/ntmech_guide/en_us/categories/commands.json"
+hash = "1832c85aca7270813e7265045ee62c29f135154c252d323d6dbe67d6f44f50c1"
+
+[[files]]
+file = "patchouli_books/ntmech_guide/en_us/categories/keybinds.json"
+hash = "3ee8c24bd6d27e8ff8c92cfae1c1377c1927cd29e72a4f169e0259dcb9310bef"
+
+[[files]]
+file = "patchouli_books/ntmech_guide/en_us/entries/commands/bank.json"
+hash = "2f07160c656db6b41910e3e4da1876fd821653741aa59dc551312d6cfecf2860"
+
+[[files]]
+file = "patchouli_books/ntmech_guide/en_us/entries/keybinds/map.json"
+hash = "521158806a68dba0b15a4a58a22454d4f7e23cf0a4108e6c32fbb6d5076ee625"
+
+[[files]]
+file = "patchouli_books/ntmech_guide/en_us/entries/keybinds/voice.json"
+hash = "64fc8a4bff3ae18950f92380edbcb52dd9fa5c310ed9e4a59fd126be8f5769be"
