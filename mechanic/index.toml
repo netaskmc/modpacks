@@ -1402,8 +1402,13 @@ hash = "219db8b20676139a72d7efd96884a2964955979447c82a1b06137d0e483bc5ab"
 metafile = true
 
 [[files]]
+file = "mods/ars-creo.pw.toml"
+hash = "628d399340e67a9f64246c8900dabc1efc338ca5dafec5fc24938c9d8b3bfdfa"
+metafile = true
+
+[[files]]
 file = "mods/ars-nouveau.pw.toml"
-hash = "5b236103b7ca5c3c2e28e7454e6a2f04dc91a43044d1e6197bb38a981a2dd038"
+hash = "2b15505083059e66744175fdb4dcda7bc2f9eda3af65b36d76477603af0c0b3b"
 metafile = true
 
 [[files]]
@@ -1434,6 +1439,11 @@ metafile = true
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "b1365d475d1372815e33a03771d9437b08c0c47543b88f654345ca4314b0a7c7"
+metafile = true
+
+[[files]]
+file = "mods/cccbridge.pw.toml"
+hash = "86934e48e50a5e92cf82103f60893c7028436c1112a4e1ef92a68b59ca68814a"
 metafile = true
 
 [[files]]
@@ -1528,7 +1538,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "6ecc31d75d379730df8fe950438b4ca26ed1daa8612406374552665f9222f9ea"
+hash = "c464b21ac8baf5ed1d22a0c4bacfcf24977e04dc938add65a2a93bcaf704c22e"
 metafile = true
 
 [[files]]
@@ -1539,6 +1549,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "489769f9b1bf1600d8eec7b8e08b27b66ecef1daeb3b4ddd44c0b6d14e5c5670"
+metafile = true
+
+[[files]]
+file = "mods/daves-building-extended.pw.toml"
+hash = "672217613d12a12c3a891d2909c7d17c1700f3edb3f80589ab6790b78850d273"
 metafile = true
 
 [[files]]
@@ -1574,6 +1589,11 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "2aeab43f8b457417a4a91782cf1b3fa9de2c06a522e83e6555355c708d2c935e"
+metafile = true
+
+[[files]]
+file = "mods/goprone.pw.toml"
+hash = "d13945ad3b6653db6c65c9f3654a9b1b440823bfca3b6fe55a49e3a21dfcad18"
 metafile = true
 
 [[files]]
@@ -1614,6 +1634,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "d71fd32a56325b8fe378cfafe78f81d985436b2fd44638f5bab1f1386680b096"
+metafile = true
+
+[[files]]
+file = "mods/neruina.pw.toml"
+hash = "30f0a4bf5e21ef6f8e0085708eddac8886cfe787cef535097cea9f4f53605bcd"
 metafile = true
 
 [[files]]
