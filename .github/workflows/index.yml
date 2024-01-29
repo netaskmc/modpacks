@@ -26,7 +26,7 @@ jobs:
         with:
           commit_message: "Update index.json"
           commit_options: "--no-verify"
-          file_pattern: "index.json"
+          file_pattern: "packs/index.json"
           branch: ${{ github.ref }}
           commit_user_name: "GitHub Actions"
           commit_user_email: "actions@github.com"
