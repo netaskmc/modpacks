@@ -1392,6 +1392,11 @@ hash = "e4e19543a206b71f651c1d9ebee43ff6fabce75fd5f370bd485696f98fa12f18"
 metafile = true
 
 [[files]]
+file = "mods/another-furniture.pw.toml"
+hash = "cb65618762547645cd50cbdebf7613fe72dbc1a16350cf3e3e80453970371ec2"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "8d0321177fed4a0b48554c40158b43db62f6cdaa768f584ef6a11575dfaa6223"
 metafile = true
@@ -1423,7 +1428,7 @@ metafile = true
 
 [[files]]
 file = "mods/blur-forge.pw.toml"
-hash = "b452fc877ad16f35cf274f3945ec7eb46d645be3d76bd506858b263ce09332ce"
+hash = "6d120e37e9bce55fdd8b209265863dfcc6b64ac9cdf4e3afaa7dc9be08db2978"
 metafile = true
 
 [[files]]
@@ -1597,6 +1602,11 @@ hash = "d13945ad3b6653db6c65c9f3654a9b1b440823bfca3b6fe55a49e3a21dfcad18"
 metafile = true
 
 [[files]]
+file = "mods/hearth-and-home.pw.toml"
+hash = "f9b151612606965377d5ed97d05fc32e61e00e86ac9459f24c1b985620d17c50"
+metafile = true
+
+[[files]]
 file = "mods/iceberg.pw.toml"
 hash = "1fcc22fe33c8d9131420e53ac410018c81d529295fee68694a41ba72bb3bb2a8"
 metafile = true
@@ -1634,6 +1644,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "d71fd32a56325b8fe378cfafe78f81d985436b2fd44638f5bab1f1386680b096"
+metafile = true
+
+[[files]]
+file = "mods/naturalist.pw.toml"
+hash = "a57155e174f160d0cb42c8e10eb648b05865d70a79496a4024111d2a506325ca"
 metafile = true
 
 [[files]]
