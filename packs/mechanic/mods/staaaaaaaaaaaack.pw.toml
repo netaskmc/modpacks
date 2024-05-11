@@ -1,0 +1,13 @@
+name = "Staaaaaaaaaaaack (Stxck)"
+filename = "staaaaaaaaaaaack-forge-1.20.1-1.5-71.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/myL7fuqp/versions/hDO0z6X4/staaaaaaaaaaaack-forge-1.20.1-1.5-71.jar"
+hash-format = "sha1"
+hash = "ba0aeb23f3d90ef45a91b190756784212815c1e3"
+
+[update]
+[update.modrinth]
+mod-id = "myL7fuqp"
+version = "hDO0z6X4"

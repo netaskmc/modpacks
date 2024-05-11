@@ -4,5 +4,7 @@
   "item.kubejs.advanced_computer_chip": "Продвинутый компьютерный чип",
   "item.kubejs.incomplete_advanced_computer_chip": "Незаконченный продвинутый компьютерный чип",
   "item.kubejs.computer_screen": "Компьютерный экран",
-  "item.kubejs.advanced_computer_screen": "Продвинутый компьютерный экран"
+  "item.kubejs.advanced_computer_screen": "Продвинутый компьютерный экран",
+  "block.kubejs.money_counter": "Касса",
+  "block.kubejs.gold_casing": "Золотой корпус"
 }

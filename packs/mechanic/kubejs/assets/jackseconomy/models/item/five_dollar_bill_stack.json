@@ -1,0 +1,7 @@
+{
+  "parent": "jackseconomy:item/bill_stack",
+  "textures": {
+    "0": "jackseconomy:item/five_dollar_bill",
+    "particle": "jackseconomy:item/five_dollar_bill"
+  }
+}

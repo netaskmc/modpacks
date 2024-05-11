@@ -1,0 +1,13 @@
+name = "Chat Impressive Animation"
+filename = "ChatImpressiveAnimation-forge-1.0+mc1.20.x.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/DnL1AGAI/versions/RrpjdWaM/ChatImpressiveAnimation-forge-1.0%2Bmc1.20.x.jar"
+hash-format = "sha1"
+hash = "ce6ba984e02278d7a196f17780f4f3bb341aaeda"
+
+[update]
+[update.modrinth]
+mod-id = "DnL1AGAI"
+version = "RrpjdWaM"

@@ -20,7 +20,7 @@ oldDeathpoints:true
 distance:1
 lockNorth:false
 zoom:0
-minimapSize:0
+minimapSize:120
 chunkGrid:-1
 slimeChunks:false
 mapSafeMode:false
@@ -54,6 +54,7 @@ waypointOpacityMap:90
 hideWorldNames:1
 openSlimeSettings:true
 alwaysShowDistance:false
+renderLayerIndex:1
 crossDimensionalTp:true
 biomeColorsVanillaMode:false
 lookingAtAngle:10
@@ -78,7 +79,7 @@ uiScale:0
 bossHealthPushBox:1
 potionEffectPushBox:1
 minimapFrame:0
-minimapFrameColor:9
+minimapFrameColor:8
 compassColor:9
 northCompassColor:-1
 displayMultipleWaypointInfo:1

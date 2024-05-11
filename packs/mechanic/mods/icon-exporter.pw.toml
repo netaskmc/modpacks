@@ -1,0 +1,13 @@
+name = "Icon Exporter"
+filename = "IconExporter-1.20.1-1.3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8KCmS7Bd/versions/k3Il2YuC/IconExporter-1.20.1-1.3.0.jar"
+hash-format = "sha1"
+hash = "363a096d0b0546f3d8b4d628674f9a58c7f9abda"
+
+[update]
+[update.modrinth]
+mod-id = "8KCmS7Bd"
+version = "k3Il2YuC"

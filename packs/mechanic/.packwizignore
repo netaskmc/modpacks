@@ -10,7 +10,7 @@
 /README.md
 
 # Exclude exported CurseForge zip files
-*.zip
+/*.zip
 
 # Exclude exported Modrinth modpacks
 *.mrpack

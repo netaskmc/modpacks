@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "kubejs:block/money_counter",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "kubejs:block/money_counter",
+      "y": 0
+    },
+    "facing=west": {
+      "model": "kubejs:block/money_counter",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "kubejs:block/money_counter",
+      "y": 180
+    }
+  }
+}

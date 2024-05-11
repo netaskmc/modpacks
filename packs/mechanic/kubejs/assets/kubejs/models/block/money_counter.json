@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "kubejs:block/money_counter_front",
+    "side": "kubejs:block/gold_casing",
+    "top": "kubejs:block/gold_casing"
+  }
+}

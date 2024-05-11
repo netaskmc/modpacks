@@ -1,0 +1,13 @@
+name = "Name Pain"
+filename = "namepain-1.5.0 forge-1.20.x.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/cJk2qbxw/versions/vrp8rYJu/namepain-1.5.0%20forge-1.20.x.jar"
+hash-format = "sha1"
+hash = "16a257c1cec72619052c93dd1cd1bcedd052602c"
+
+[update]
+[update.modrinth]
+mod-id = "cJk2qbxw"
+version = "vrp8rYJu"

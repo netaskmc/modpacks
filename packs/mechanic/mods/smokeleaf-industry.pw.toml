@@ -1,0 +1,13 @@
+name = "Smokeleaf Industry"
+filename = "smokeleafindustry-0.4.1-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/V0xdbyG2/versions/1jw6F8W0/smokeleafindustry-0.4.1-1.20.1.jar"
+hash-format = "sha1"
+hash = "5e2df73c98f9cf5a02e6a55a6a9d9dc3e0d7258e"
+
+[update]
+[update.modrinth]
+mod-id = "V0xdbyG2"
+version = "1jw6F8W0"

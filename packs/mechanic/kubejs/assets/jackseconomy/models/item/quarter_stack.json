@@ -1,0 +1,7 @@
+{
+  "parent": "jackseconomy:item/coin_stack",
+  "textures": {
+    "0": "jackseconomy:item/quarter",
+    "particle": "jackseconomy:item/quarter"
+  }
+}

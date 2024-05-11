@@ -1,0 +1,79 @@
+{
+  "items": [
+    {
+      "item": "minecraft:diamond",
+      "type": "prices",
+      "adminShopSellPrice": 45.0,
+      "sellPrice": 200.0
+    },
+    {
+      "item": "minecraft:potion",
+      "nbt": {
+        "Potion": "minecraft:regeneration"
+      },
+      "type": "adminshop",
+      "adminShopBuyPrice": 2000.0,
+      "category": "Îבשוו:Áאפפû",
+      "adminShopSlot": 1
+    },
+    {
+      "item": "create_enchantment_industry:hyper_experience_bottle",
+      "type": "adminshop",
+      "adminShopBuyPrice": 3000.0,
+      "category": "Îבשוו:Áאפפû",
+      "adminShopSlot": 2
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple",
+      "type": "adminshop",
+      "adminShopBuyPrice": 1000.0,
+      "category": "Îבשוו:Áאפפû",
+      "adminShopSlot": 0
+    },
+    {
+      "item": "minecraft:potion",
+      "nbt": {
+        "Potion": "minecraft:regeneration"
+      },
+      "type": "prices",
+      "sellPrice": 2000.0
+    },
+    {
+      "item": "minecraft:emerald",
+      "type": "prices",
+      "sellPrice": 1000.0
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "type": "prices",
+      "sellPrice": 10.0
+    },
+    {
+      "item": "minecraft:copper_ingot",
+      "type": "prices",
+      "sellPrice": 10.0
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "type": "prices",
+      "sellPrice": 100.0
+    },
+    {
+      "item": "minecraft:netherite_ingot",
+      "type": "prices",
+      "sellPrice": 500.0
+    }
+  ],
+  "categories": [
+    {
+      "item": "minecraft:dirt",
+      "name": "Îבשוו",
+      "categories": [
+        {
+          "item": "minecraft:enchanted_golden_apple",
+          "name": "Áאפפû"
+        }
+      ]
+    }
+  ]
+}

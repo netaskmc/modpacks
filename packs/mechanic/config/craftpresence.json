@@ -132,7 +132,7 @@
       },
       "texLocation": "minecraft:textures/gui/options_background.png"
     },
-    "worldGuiBackground": {
+    "altGuiBackground": {
       "start": {
         "red": 16,
         "green": 16,
@@ -148,6 +148,7 @@
     },
     "languageId": "en_us",
     "stripTranslationColors": false,
+    "stripTranslationFormatting": false,
     "stripExtraGuiElements": false,
     "renderTooltips": true,
     "configKeyCode": 96
@@ -173,6 +174,7 @@
     },
     "dynamicIcons": {
       "Mlntcandy": "https://mc-heads.net/avatar/ba67c5a4151942f280aeb776d06a7bf6",
+      "2b2t.org": "https://api.mcsrvstat.us/icon/2b2t.org",
       "default": "https://via.placeholder.com/256.png"
     },
     "dynamicVariables": {
