@@ -41,20 +41,20 @@ ServerEvents.recipes((event) => {
           },
         ],
       },
-      {
-        type: "create_new_age:energising",
-        energy_needed: 500,
-        ingredients: [
-          {
-            item: "kubejs:incomplete_computer_chip",
-          },
-        ],
-        results: [
-          {
-            item: "kubejs:incomplete_computer_chip",
-          },
-        ],
-      },
+      // {
+      //   type: "tfmg:energising",
+      //   energy_needed: 500,
+      //   ingredients: [
+      //     {
+      //       item: "kubejs:incomplete_computer_chip",
+      //     },
+      //   ],
+      //   results: [
+      //     {
+      //       item: "kubejs:incomplete_computer_chip",
+      //     },
+      //   ],
+      // },
       {
         type: "create:pressing",
         ingredients: [
@@ -121,20 +121,20 @@ ServerEvents.recipes((event) => {
           },
         ],
       },
-      {
-        type: "create_new_age:energising",
-        energy_needed: 2000,
-        ingredients: [
-          {
-            item: "kubejs:incomplete_advanced_computer_chip",
-          },
-        ],
-        results: [
-          {
-            item: "kubejs:incomplete_advanced_computer_chip",
-          },
-        ],
-      },
+      // {
+      //   type: "tfmg:energising",
+      //   energy_needed: 2000,
+      //   ingredients: [
+      //     {
+      //       item: "kubejs:incomplete_advanced_computer_chip",
+      //     },
+      //   ],
+      //   results: [
+      //     {
+      //       item: "kubejs:incomplete_advanced_computer_chip",
+      //     },
+      //   ],
+      // },
       {
         type: "create:pressing",
         ingredients: [
@@ -336,7 +336,7 @@ ServerEvents.recipes((event) => {
   event.shaped(Item.of("computercraft:wired_modem"), ["RWR", "RCR", "RWR"], {
     C: "kubejs:computer_chip",
     R: "create:copper_nugget",
-    W: "create_new_age:copper_wire",
+    W: "tfmg:copper_wire",
   });
 
   // craft wireless modem
@@ -347,7 +347,7 @@ ServerEvents.recipes((event) => {
     {
       C: "computercraft:wired_modem",
       R: "minecraft:ender_pearl",
-      W: "create_new_age:copper_wire",
+      W: "tfmg:copper_wire",
     }
   );
 
@@ -359,7 +359,7 @@ ServerEvents.recipes((event) => {
     {
       C: "computercraft:wireless_modem_normal",
       R: "minecraft:ender_eye",
-      W: "create_new_age:copper_wire",
+      W: "tfmg:copper_wire",
       U: "kubejs:advanced_computer_chip",
     }
   );
@@ -367,7 +367,7 @@ ServerEvents.recipes((event) => {
   // craft cable
   event.remove({ id: "computercraft:cable" });
   event.shaped(Item.of("computercraft:cable", 8), ["WWW", "WRW", "WWW"], {
-    W: "create_new_age:copper_wire",
+    W: "tfmg:copper_wire",
     R: "minecraft:redstone",
   });
 
@@ -384,7 +384,7 @@ ServerEvents.recipes((event) => {
   event.shaped(Item.of("computercraft:disk_drive"), ["WCW", "RRR", "RAR"], {
     C: "kubejs:computer_chip",
     R: "create:copper_nugget",
-    W: "create_new_age:copper_wire",
+    W: "tfmg:copper_wire",
     A: "create:andesite_casing",
   });
 
@@ -392,7 +392,7 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "computercraft:printer" });
   event.shaped(Item.of("computercraft:printer"), ["WCW", "IHI", "WAW"], {
     C: "kubejs:computer_chip",
-    W: "create_new_age:copper_wire",
+    W: "tfmg:copper_wire",
     H: "create:brass_hand",
     I: "minecraft:black_dye",
     A: "create:andesite_casing",

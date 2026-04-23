@@ -1,13 +1,13 @@
 name = "Shutters"
-filename = "shutters-2.0.2-1.20.1.jar"
+filename = "shutter-2.0.5-1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/NjHNA0vG/versions/8zNRhTYe/shutters-2.0.2-1.20.1.jar"
+url = "https://cdn.modrinth.com/data/NjHNA0vG/versions/VJjTwuo1/shutter-2.0.5-1.20.1.jar"
 hash-format = "sha1"
-hash = "37acd1d63be11bd48a5580e4755ac7225db2e239"
+hash = "1aee18a59ae4f06f26e5bc14287f6fd8725e1efd"
 
 [update]
 [update.modrinth]
 mod-id = "NjHNA0vG"
-version = "8zNRhTYe"
+version = "VJjTwuo1"

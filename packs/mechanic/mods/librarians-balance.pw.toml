@@ -1,13 +1,13 @@
 name = "Librarian's Balance"
-filename = "librarians-balance-1.2.jar"
+filename = "librarians-balance-3.5-(1.20.1).jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/SoL6FwNo/versions/VuophC1r/librarians-balance-1.2.jar"
+url = "https://cdn.modrinth.com/data/SoL6FwNo/versions/d8qjBvC7/librarians-balance-3.5-%281.20.1%29.jar"
 hash-format = "sha1"
-hash = "f56b75a3615719c33766f06277e3cdd798a8aeda"
+hash = "55b1020dec0aedcf0a5745fa0ef6d97f6fc959a7"
 
 [update]
 [update.modrinth]
 mod-id = "SoL6FwNo"
-version = "VuophC1r"
+version = "d8qjBvC7"

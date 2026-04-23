@@ -1,0 +1,13 @@
+name = "Flopper"
+filename = "Flopper-1.20.1-1.1.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/aTMAqQMY/versions/Lpnooten/Flopper-1.20.1-1.1.5.jar"
+hash-format = "sha1"
+hash = "1e7d30dcb864819c9f1d5b2a714897a507774a0b"
+
+[update]
+[update.modrinth]
+mod-id = "aTMAqQMY"
+version = "Lpnooten"

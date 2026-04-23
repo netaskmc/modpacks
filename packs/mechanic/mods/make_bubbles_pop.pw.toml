@@ -1,13 +1,13 @@
 name = "Make Bubbles Pop"
-filename = "make_bubbles_pop-0.2.0-forge-mc1.19.4+.jar"
+filename = "make_bubbles_pop-0.3.0-forge-mc1.19.4-1.20.4.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/gPCdW0Wr/versions/hrpSDBlO/make_bubbles_pop-0.2.0-forge-mc1.19.4%2B.jar"
+url = "https://cdn.modrinth.com/data/gPCdW0Wr/versions/B7ndPMxE/make_bubbles_pop-0.3.0-forge-mc1.19.4-1.20.4.jar"
 hash-format = "sha1"
-hash = "a6029ea4fcb9537fc034d2bfb4c2ee353639a4c8"
+hash = "b918de5212256c7f39acd2d125ec12704a226a3c"
 
 [update]
 [update.modrinth]
 mod-id = "gPCdW0Wr"
-version = "hrpSDBlO"
+version = "B7ndPMxE"

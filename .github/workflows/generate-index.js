@@ -50,6 +50,7 @@ const generateIndex = async () => {
             pw: ezTomlParse(toml, "pack-format"),
             mc: ezTomlParse(toml, "versions.minecraft"),
             forge: ezTomlParse(toml, "versions.forge"),
+            neoforge: ezTomlParse(toml, "versions.neoforge"),
           },
           modCount: (await fs.readdir(`${dir}/mods`)).length,
         };
