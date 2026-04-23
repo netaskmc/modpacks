@@ -1,5 +1,19 @@
 [
   {
+    "name": "NeTask Factory",
+    "author": "NeTask Collective",
+    "id": "factory",
+    "icon": "factory/pack.jpg",
+    "versions": {
+      "pack": "1.0.0",
+      "pw": "packwiz:1.1.0",
+      "mc": "1.21.1",
+      "forge": null,
+      "neoforge": "21.1.228"
+    },
+    "modCount": 1
+  },
+  {
     "name": "NeTask Mechanic",
     "author": "NeTask Collective",
     "id": "mechanic",
@@ -8,9 +22,10 @@
       "pack": "1.1.0",
       "pw": "packwiz:1.1.0",
       "mc": "1.20.1",
-      "forge": "47.2.1"
+      "forge": "47.3.0",
+      "neoforge": null
     },
-    "modCount": 125
+    "modCount": 130
   },
   {
     "name": "NeTask Reborn+ (aka KAMAZCraft)",
@@ -21,7 +36,8 @@
       "pack": "1.2.2",
       "pw": "packwiz:1.1.0",
       "mc": "1.12.2",
-      "forge": "14.23.5.2859"
+      "forge": "14.23.5.2859",
+      "neoforge": null
     },
     "modCount": 89
   }
