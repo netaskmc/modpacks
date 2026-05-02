@@ -1,0 +1,12 @@
+{
+    "dropborder": {
+        "sounds": [
+            "kubejs:dropborder"
+        ]
+    },
+    "expandborder": {
+        "sounds": [
+            "kubejs:expandborder"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+name = "Fumo"
+filename = "fumo-17.2.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Abkqr1E0/versions/ybxDaq8D/fumo-17.2.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "96780a2a8204c338952ce920a937079d9b0831cd88d04b435c3c596ace1ee8d4c152ec2c3124164919f5ea30cb9dd27ab354ecb3c4e25ad59928df9fce50f1c4"
+
+[update]
+[update.modrinth]
+mod-id = "Abkqr1E0"
+version = "ybxDaq8D"

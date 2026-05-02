@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6616336D44549F2D"
+	group: "150601C2DE4C8F0B"
+	id: "6616336D44549F2D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "23DD49E73905209E"
+			tasks: [{
+				advancement: "create:andesite_casing"
+				criterion: ""
+				id: "698BD7732F3EF524"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			id: "522DBDBAC6615C6A"
+			shape: "square"
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "ftbquests:block/barrier"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "0AFB4286DD6DFC93"
+				type: "custom"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+	]
+}

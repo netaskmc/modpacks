@@ -1,0 +1,13 @@
+name = "Iron Barrels"
+filename = "IronBarrels1.12.1-V1.01NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7qvEFHn9/versions/1nNNaLrd/IronBarrels1.12.1-V1.01NeoForge.jar"
+hash-format = "sha512"
+hash = "ab0103d5d55d911743a59d7db688f55fbec62d57576034efe77b546d0d7206189483ae79c594d609f3cbab254e325ddb16bbe47f06e80383cf93844e4629b85b"
+
+[update]
+[update.modrinth]
+mod-id = "7qvEFHn9"
+version = "1nNNaLrd"

@@ -1,0 +1,13 @@
+name = "Create: Gunpowder"
+filename = "creategunpowder-1.21.1-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qHEtfznL/versions/pXUo7zXV/creategunpowder-1.21.1-1.0.1.jar"
+hash-format = "sha512"
+hash = "8b7a4c1240ee2d161d8758a10ee3f188606d0dfb6d7a15be5f82a4f4e2092a7edce6da0ae629360bce64367d48a5e3450abc4329c31a55930f3a6af29f3c8d26"
+
+[update]
+[update.modrinth]
+mod-id = "qHEtfznL"
+version = "pXUo7zXV"
