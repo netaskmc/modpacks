@@ -1,0 +1,8 @@
+name = "JourneyMap World Border Lite"
+filename = "jmworldborderlite-1.0.1.jar"
+side = "client"
+
+[download]
+url = "https://github.com/netaskmc/jm-worldborder-lite/releases/download/v1.0.1/jmworldborderlite-1.0.1.jar"
+hash-format = "sha256"
+hash = "5be6c2aa8a9608b0ca5b58d799b1f506fe7ccb8517a5008e864aa585e4c4c603"
