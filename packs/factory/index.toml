@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "PATCH_NOTES.md"
-hash = "3af27fb8366cebb62db06506bbc08b8c989f807365824c5f00ebaf7faf455864"
+hash = "f0d4bb27eee9bc63d2c6241439073874383e73c27130d75c4c90c75d55b5e148"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "6126237ee4a9d82fd92a78142d71eaa3980dd219f9290b3c910c09783b53cf8b"
+hash = "f44433665613a0156a0b7f4165434d068d729c62bcebfaeb20ec1844cb044024"
 
 [[files]]
 file = "config/EndRemastered-NeoForge/Eyes/black_eye.json"
@@ -98,7 +98,7 @@ hash = "df5ae243f289a2ad1321c288d88a7bdbe85371983ae9daf5fdad4571cc42bb4c"
 
 [[files]]
 file = "config/ambientsounds-client.json"
-hash = "c3a7d7144174e1b5cc32e14ac080ba72d521187aff08cb46deb3a135487e7ad4"
+hash = "094a582bd34eb5ad47193fe7f2f2d20679edfe1c31c6721ae81e2787aa5140a2"
 
 [[files]]
 file = "config/appleskin-client.toml"
@@ -210,7 +210,7 @@ hash = "c34355ac99d09629058a9a6148b3515571cfa621c4e8a1f7bd29501d93436811"
 
 [[files]]
 file = "config/c2me.toml"
-hash = "616a97af72cc913876fe9df011d0e87f56a0c1613f78701fb76e64fc62806977"
+hash = "4ed0c3d5b3b736e0e68af906117cd3cc8099cdfbc7a8eb54aa587524e3625ba7"
 
 [[files]]
 file = "config/cccbridge/client.toml"
@@ -278,7 +278,7 @@ hash = "12bf1303e43aa7d076e09dfd281b0549872275e1fed89dad2a58225fa6124a4e"
 
 [[files]]
 file = "config/create_connected-common.toml"
-hash = "12bf1303e43aa7d076e09dfd281b0549872275e1fed89dad2a58225fa6124a4e"
+hash = "e86f10b33d7354d0e05bee3cecd5d0026e6e7cbba81f99ed724866fc298b7ffb"
 
 [[files]]
 file = "config/create_connected-server-1.toml.bak"
@@ -286,7 +286,7 @@ hash = "c2d7ef373f19e1912416f250252e986cd8d8f2056cb6b24bd0dcb5daf67f4699"
 
 [[files]]
 file = "config/create_connected-server.toml"
-hash = "c2d7ef373f19e1912416f250252e986cd8d8f2056cb6b24bd0dcb5daf67f4699"
+hash = "598f5dd44ba5f3d91444ff7dfdad8098b9b3078b69608db977dab7dfba1b0be7"
 
 [[files]]
 file = "config/create_dragons_plus-client.toml"
@@ -298,7 +298,7 @@ hash = "a8922820cd44bd06733e0cf2693f15397b7bab77a6b3b2640dae4536af8e3a0d"
 
 [[files]]
 file = "config/create_dragons_plus-common.toml"
-hash = "a8922820cd44bd06733e0cf2693f15397b7bab77a6b3b2640dae4536af8e3a0d"
+hash = "f07c7bc7b3b13f9e05c6dd2e82567672258962b092a2d80be9c4bc2e71c75536"
 
 [[files]]
 file = "config/create_dragons_plus-server.toml"
@@ -314,7 +314,7 @@ hash = "4107acb79adfe12fc707af7d523157e702eaafbdf248280db97af9aea3aa802a"
 
 [[files]]
 file = "config/create_dragons_plus-simulated-extension-server.toml"
-hash = "4107acb79adfe12fc707af7d523157e702eaafbdf248280db97af9aea3aa802a"
+hash = "60bad6819e405b276d23b238592add8c7ec92062951d83a812d25a63ab5b6b83"
 
 [[files]]
 file = "config/create_enchantment_industry-client.toml"
@@ -330,7 +330,7 @@ hash = "9323b62dc2da8afd4311fbf7b28bffe1ad6b5b4770fca42ada11815e8091d9f7"
 
 [[files]]
 file = "config/create_enchantment_industry-server.toml"
-hash = "9323b62dc2da8afd4311fbf7b28bffe1ad6b5b4770fca42ada11815e8091d9f7"
+hash = "a128d1ab9712a009d45c03fc1182f11aa1ee5317306e1a76ff3350aff8b6c64f"
 
 [[files]]
 file = "config/create_hypertube-client.toml"
@@ -382,7 +382,7 @@ hash = "5c008fe4ae6ad0175ff3bccb151e4e7d2c5188311e594561317172c12e338594"
 
 [[files]]
 file = "config/createdieselgenerators-server.toml"
-hash = "5c008fe4ae6ad0175ff3bccb151e4e7d2c5188311e594561317172c12e338594"
+hash = "b92768bc7140e26a0c2bfce3b4d744d85be2c437cfd11bbf31f0e2a83ee3c01d"
 
 [[files]]
 file = "config/createoreexcavation-common.toml"
@@ -426,7 +426,7 @@ hash = "faccba5a94a73907ea094de5145e20fc19219fa761d67aa1688287f40ab2e0c1"
 
 [[files]]
 file = "config/dndecor-server.toml"
-hash = "faccba5a94a73907ea094de5145e20fc19219fa761d67aa1688287f40ab2e0c1"
+hash = "daaeeb6fa5aaaaf013bb024e9d18604c3d7b4677985e637963d68b50d43fd80a"
 
 [[files]]
 file = "config/dndesires-client.toml"
@@ -438,7 +438,7 @@ hash = "53b464df236d81d169b573a16baf64dfb4954643cabd4c557f60f3b8cac3d7f2"
 
 [[files]]
 file = "config/dndesires-server.toml"
-hash = "53b464df236d81d169b573a16baf64dfb4954643cabd4c557f60f3b8cac3d7f2"
+hash = "38b0541a718929568aa97eb530055088557888bc4b87d84bf6aee23020dbf610"
 
 [[files]]
 file = "config/emi.css"
@@ -470,7 +470,7 @@ hash = "0aef81f57e2afd3906cf175407fa0725c3186eae76f0708a87454eaa57c9d72c"
 
 [[files]]
 file = "config/farmersdelight-client.toml"
-hash = "0aef81f57e2afd3906cf175407fa0725c3186eae76f0708a87454eaa57c9d72c"
+hash = "a8cdc0376674d522d92d977cac5800d00c6f70ea62ea83dea59595fb232b8e3e"
 
 [[files]]
 file = "config/farmersdelight-common-1.toml.bak"
@@ -478,7 +478,7 @@ hash = "c834c382b3f43f6cc98e1bdcd9d96ed8a83984653215c4e4c45a44098a4a738e"
 
 [[files]]
 file = "config/farmersdelight-common.toml"
-hash = "c834c382b3f43f6cc98e1bdcd9d96ed8a83984653215c4e4c45a44098a4a738e"
+hash = "54663bc8a96e5db077e33312aba1b5a16c462f080e3b8c6fefabd4f586df9090"
 
 [[files]]
 file = "config/ferritecore-mixin.toml"
@@ -498,15 +498,15 @@ hash = "899a650b7b758fec6b0f117bb0b97d518892d428727d0f90d7b8cc8e8c0dd833"
 
 [[files]]
 file = "config/ftbbackups3-server.snbt"
-hash = "e102a4940271c792ba9d8a324ced16c1686f3ae510f91c6b91684a8291b6b3d0"
+hash = "c324c08dff8c943e8afdd35822a02478e89451efd407176c6ebaff72a9127cbc"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "ba11d31022db8163cf1da6c55fccbf20303ddf7b7753804aded26b66c527e5fd"
+hash = "f04a8390a0184e4e64f8f915558da08d412a4581a30b55e44eb398fa2593ae4b"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
-hash = "df97d93407a6babe2efd80d6d5a912b0bc5dbbf8de9ccb08be2880f731c30ec1"
+hash = "045ced909c197435a8dc25e09ef89d651d612ff49348ae5d15f32d1f1e852ee8"
 
 [[files]]
 file = "config/ftblibrary-client.snbt"
@@ -566,7 +566,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "e59dad7fd01ddb717459b8a742cc4604c010c5245ac5a349638823c6ab629875"
+hash = "7ce47b4b4fa45c1689441d621e6f27de04d103da578478766c9e99e8cc7eaafa"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -618,7 +618,7 @@ hash = "0f7758b015952072ae6eb72f829f5be6530f81d79b190d3e45cd7955d201de85"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "dc65ed9f30b2bfd49a1059249ea3f4e8a37e2a674733d9fe409d4a0b840a3983"
+hash = "1f32ada19d335d87fdc02377bd29ff2304a5df459d5d930d35e383ef176b6932"
 
 [[files]]
 file = "config/journeymap-server.toml"
@@ -710,7 +710,7 @@ hash = "0abc8a8f2ce730e440521d4d3d2cb45ec475e9d5a0e01e17e74cfbd63a0bd26b"
 
 [[files]]
 file = "config/sable-client.toml"
-hash = "0abc8a8f2ce730e440521d4d3d2cb45ec475e9d5a0e01e17e74cfbd63a0bd26b"
+hash = "c3d01c66d3b1de25d79cac53b9554865ce55d264dd60b99d4e16a4101738b118"
 
 [[files]]
 file = "config/sable-common-1.toml.bak"
@@ -718,7 +718,7 @@ hash = "ff85fe8e0e93691961200fb4c8e910b44a99c6832a17d2ad564ed39ec3073713"
 
 [[files]]
 file = "config/sable-common.toml"
-hash = "ff85fe8e0e93691961200fb4c8e910b44a99c6832a17d2ad564ed39ec3073713"
+hash = "2a6e4c1541f83960f510849cc4fdc31e763275aad379318974d4dc46abb2629d"
 
 [[files]]
 file = "config/simulated-client-1.toml.bak"
@@ -726,7 +726,7 @@ hash = "ae2634e6d32c7fb2e3cfe195f0d5c3a4bd2a1e073890d0abcc982065b41e8219"
 
 [[files]]
 file = "config/simulated-client.toml"
-hash = "ae2634e6d32c7fb2e3cfe195f0d5c3a4bd2a1e073890d0abcc982065b41e8219"
+hash = "aaeeaedb8179a8e2404a468c0b62fee76dd5becb6c87d870f206733e20009991"
 
 [[files]]
 file = "config/simulated-server-1.toml.bak"
@@ -734,7 +734,7 @@ hash = "43f69b72502cfeb43e4b8584a1a8955120fcd25b31217ce199525127fd76e587"
 
 [[files]]
 file = "config/simulated-server.toml"
-hash = "43f69b72502cfeb43e4b8584a1a8955120fcd25b31217ce199525127fd76e587"
+hash = "fbcf40465f120ceac12fdc297e8e196ca2774936406404165402d94009f0e53c"
 
 [[files]]
 file = "config/sliceanddice-client.toml"
@@ -754,7 +754,7 @@ hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "be40d116c4d2eff2e12e2ebd811a6c365955acbfed39361cef22cbd23e0dd74f"
+hash = "4056d1df6ceaf99ce534f5f61bf978bc2f6d62381deed617cf361e180e1f1ca4"
 
 [[files]]
 file = "config/sodiumdynamiclights-client.toml"
@@ -770,7 +770,7 @@ hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
 
 [[files]]
 file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "ac11af49fcd0900acc2ecba2bb38bf7ccd2c87b3fe51985f31c05210eed0076c"
+hash = "67f249f2ca75bfe124a2bac34c09b0620fb879a3cb628e6ba7979ad92e161588"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -818,7 +818,7 @@ hash = "67add5078a9a0b871994a69e817754587ed41b923581b20c5770b92d4ee5e87b"
 
 [[files]]
 file = "config/supplementaries-client.toml"
-hash = "67add5078a9a0b871994a69e817754587ed41b923581b20c5770b92d4ee5e87b"
+hash = "a2ef0dca039b10c3702d4b4889b4f3f674b5e02315bd31c359409261db94f4e6"
 
 [[files]]
 file = "config/supplementaries-common-1.toml.bak"
@@ -834,7 +834,7 @@ hash = "76509eed51fb4284bf2d7a76c6c54bd33467d3bb416c907cedbc5a89186fa567"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "76509eed51fb4284bf2d7a76c6c54bd33467d3bb416c907cedbc5a89186fa567"
+hash = "a31f36f05ab2cc20b1fdc6f0c9e751528aaea0399aa250bdff306b05b01491ff"
 
 [[files]]
 file = "config/terrablender.toml"
@@ -874,7 +874,7 @@ hash = "581c8fd9c887c27f2916a1928c83a8e998315b0a8ac0fe93941344ea8b5649f2"
 
 [[files]]
 file = "config/travelersbackpack-server.toml"
-hash = "581c8fd9c887c27f2916a1928c83a8e998315b0a8ac0fe93941344ea8b5649f2"
+hash = "de24eb393a788d5897c725e453ba2ac96039d331c1101bf38e269e427ccc2da0"
 
 [[files]]
 file = "config/treephysics-client.toml"
@@ -898,7 +898,7 @@ hash = "7f3b98e91bbba5479f1f5e854d3d79f7d523d43c96985427b51d5ba5db7efa82"
 
 [[files]]
 file = "config/vista-client.toml"
-hash = "7f3b98e91bbba5479f1f5e854d3d79f7d523d43c96985427b51d5ba5db7efa82"
+hash = "19fb4e68eaca5b4995ad45fabf98d1816eb05d72287246f093472cadebbf23ad"
 
 [[files]]
 file = "config/vista-common-1.toml.bak"
@@ -906,7 +906,7 @@ hash = "97de98bf14628fdb383e2104fea81b889a9a27035baf48ae2e64998580cc1a05"
 
 [[files]]
 file = "config/vista-common.toml"
-hash = "97de98bf14628fdb383e2104fea81b889a9a27035baf48ae2e64998580cc1a05"
+hash = "b24f825a5ebd51a6c269e6c4a4ca505d04039dacce509689e08f6d6d18618eec"
 
 [[files]]
 file = "config/visualworkbench-client.toml"
@@ -934,11 +934,11 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/voicechat/voicechat-client.properties"
-hash = "d8c760bc70647db552f293dab7c43c765ee38b8b16b111ce7464c5f3c86b37e0"
+hash = "83ef160f6bb40218a476b2b8cadb5519f0333bd4104467a9657ee8436a7d22ff"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
-hash = "17798374209747a90be67187081a42f25e2276cb88c4880bb150c2b8fe3429e7"
+hash = "05a8a601996936e1d56d7af4b68c136d11ea45d70706372d05cd46d4f30c500e"
 
 [[files]]
 file = "config/worldedit/.archive-unpack/5f7cd289/.unpack_finished"
@@ -1506,7 +1506,7 @@ hash = "dc3c9f6273f8c4e10cef482cd283d12c5a74ecdadf3f4f7d5e104b324a2b2720"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "8e2cea66a9c5034fc44de1a0d2547c7cb5577fb8e78056a11fa8cfd67dd0e0a9"
+hash = "7c4983bb48a505e1e7b324094b6a80d9dc1fcafffd32fefd7dac22ca2715acfe"
 
 [[files]]
 file = "config/yacl.json5"
