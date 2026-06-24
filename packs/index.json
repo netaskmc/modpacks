@@ -5,13 +5,13 @@
     "id": "factory",
     "icon": "factory/pack.jpg",
     "versions": {
-      "pack": "1.0.0",
+      "pack": "1.0.2",
       "pw": "packwiz:1.1.0",
       "mc": "1.21.1",
       "forge": null,
       "neoforge": "21.1.228"
     },
-    "modCount": 156
+    "modCount": 158
   },
   {
     "name": "NeTask Mechanic",
