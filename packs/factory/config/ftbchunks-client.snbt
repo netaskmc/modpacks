@@ -138,30 +138,39 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:glow_squid": true
-			"minecraft:fox": true
-			"minecraft:bat": true
-			"minecraft:pig": true
-			"minecraft:cod": false
-			"minecraft:wolf": true
 			"minecraft:creeper": true
-			"minecraft:cave_spider": true
-			"minecraft:villager": true
-			"minecraft:zombie": true
-			"minecraft:enderman": true
-			"minecraft:sheep": true
-			"minecraft:spider": true
-			"minecraft:tropical_fish": false
-			"minecraft:witch": true
-			"minecraft:drowned": true
-			"minecraft:iron_golem": true
-			"minecraft:squid": true
-			"minecraft:skeleton": true
-			"minecraft:horse": true
-			"minecraft:axolotl": true
-			"minecraft:turtle": true
-			"minecraft:cow": true
 			"minecraft:chicken": true
+			"minecraft:turtle": true
+			"minecraft:tropical_fish": false
+			"minecraft:fox": true
+			"naturalist:butterfly": true
+			"naturalist:cardinal": true
+			"minecraft:wolf": true
+			"minecraft:enderman": true
+			"minecraft:cow": true
+			"minecraft:skeleton": true
+			"naturalist:bluejay": true
+			"minecraft:witch": true
+			"minecraft:villager": true
+			"minecraft:cod": false
+			"minecraft:zombie": true
+			"naturalist:snake": true
+			"minecraft:drowned": true
+			"minecraft:horse": true
+			"minecraft:spider": true
+			"minecraft:cave_spider": true
+			"minecraft:squid": true
+			"naturalist:deer": true
+			"naturalist:snail": true
+			"minecraft:bat": true
+			"minecraft:glow_squid": true
+			"minecraft:iron_golem": true
+			"minecraft:sheep": true
+			"minecraft:zombie_villager": true
+			"minecraft:pig": true
+			"minecraft:axolotl": true
+			"naturalist:bear": true
+			"minecraft:bee": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
@@ -271,7 +280,7 @@
 		# Zoom distance of the minimap
 		# Default: 1.0
 		# Range: 1.0 ~ 4.0
-		zoom: 1.0d
+		zoom: 2.0d
 	}
 	waypoints: {
 		# Automatically remove death waypoints if closer than this many blocks away (distance of 0 disables removal)

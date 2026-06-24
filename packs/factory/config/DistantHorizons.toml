@@ -99,6 +99,7 @@ _version = 4
 		# Disabling this check may fix issues where LODs aren't updated after
 		# blocks have been changed.
 		disableUnchangedChunkCheck = false
+		dataCompression = "Z_STD_BLOCK"
 
 		[common.lodBuilding.experimental]
 			#
@@ -429,6 +430,15 @@ _version = 4
 				intTest = 69420
 				stringTest = "Test input box"
 
+			[client.advanced.debugging.positionFinderDebugging]
+				positionFinderEnable = false
+				positionFinderDetailLevel = 6
+				positionFinderXPos = 0
+				positionFinderZPos = 0
+				positionFinderMinBlockY = -64
+				positionFinderMaxBlockY = 125
+				positionFinderMarginPercent = "0.0"
+
 		[client.advanced.graphics]
 			#
 			# Enable Screen Space Ambient Occlusion
@@ -520,6 +530,18 @@ _version = 4
 				# 
 				# Disable this if you see LODs disappearing at the corners of your vision.
 				disableFrustumCulling = false
+				#
+				# Defines what blocks should be rendered as LODs. 
+				# 
+				# NONE: Include all blocks in the LODs 
+				# NON_COLLIDING: Only render solid blocks in the LODs (tall grass, torches, etc. will be ignored)
+				blocksToIgnore = "NON_COLLIDING"
+				#
+				# Should the blocks underneath avoided blocks gain the color of the avoided block? 
+				# 
+				# True: a red flower will tint the grass below it red. 
+				# False: skipped blocks will not change color of surface below them.
+				tintWithAvoidedBlocks = true
 
 			[client.advanced.graphics.noiseTexture]
 				#
@@ -569,6 +591,14 @@ _version = 4
 				# and the max value is 5000. Any values outside this range 
 				# will be set to 0 (disabled).
 				earthCurveRatio = 0
+				#
+				# Requires a restart to change. 
+				#  
+				# Options: 
+				# AUTO - changes based on the most likely API for that MC version 
+				# OPEN_GL - The Default for MC 1.21.11 and older (supports Iris shaders) 
+				# BLAZE_3D - The Default for MC 26.1.2 and newer (supports Vulkan)
+				renderingEngine = "AUTO"
 
 			[client.advanced.graphics.genericRendering]
 				#
@@ -576,7 +606,7 @@ _version = 4
 				# 
 				# Example: "minecraft:overworld,minecraft:the_end"
 				# 
-				# Changes will only be seen when the world is re-loaded.
+				# Changes require a world re-load.
 				dimensionEnabledCloudRenderingCsv = "minecraft:overworld"
 				#
 				# If true LOD clouds will be rendered.
@@ -587,19 +617,25 @@ _version = 4
 				# If false all LOD beacon beams will only ever be 1 block wide.
 				expandDistantBeacons = true
 				#
-				# Sets the maximum height at which beacons will render.This will only affect new beacons coming into LOD render distance.Beacons currently visible in LOD chunks will not be affected.
+				# Sets the maximum height beacons will render up to. 
+				# 
+				# Requires a world re-load to take affect.
 				beaconRenderHeight = 6000
 				#
 				# If true LOD beacon beams will be rendered.
 				enableBeaconRendering = true
 				#
-				# If true non terrain objects will be rendered in DH's terrain. 
-				# This includes beacon beams and clouds.
+				# If true non terrain objects will be rendered by DH. 
+				# i.e. beacon beams and clouds.
 				enableGenericRendering = true
+				#
+				# False = DH will render a single layer of clouds, like vanilla Minecraft. 
+				# True = DH will render 3 layers of clouds at different heights.
+				enableMultiLayerClouds = true
 
 			[client.advanced.graphics.quality]
 				#
-				# What is the maximum detail LODs should be drawn at? 
+				# What is the maximum detail LODs can render at? 
 				# Higher settings will increase memory and GPU usage. 
 				# 
 				# CHUNK: render 1 LOD for each Chunk. 
@@ -608,8 +644,8 @@ _version = 4
 				# TWO_BLOCKS: render 64 LODs for each Chunk. 
 				# BLOCK: render 256 LODs for each Chunk (width of one block). 
 				# 
-				# Lowest Quality: CHUNK
-				# Highest Quality: BLOCK
+				# Fastest: CHUNK
+				# Fanciest: BLOCK
 				maxHorizontalResolution = "BLOCK"
 				#
 				# If true LODs will fade away as you get closer to them. 
@@ -648,7 +684,7 @@ _version = 4
 				# Higher options will make the world more accurate, butwill increase memory and GPU usage. 
 				# 
 				# Lowest Quality: HEIGHT_MAP
-				# Highest Quality: EXTREME
+				# Highest Quality: PIXEL_ART
 				verticalQuality = "MEDIUM"
 				#
 				# What blocks shouldn't be rendered as LODs? 
@@ -658,6 +694,10 @@ _version = 4
 				blocksToIgnore = "NON_COLLIDING"
 				#
 				# The radius of the mod's render distance. (measured in chunks)
+				# 
+				# Note: this is a best effort number. 
+				# The actual render distance may be above or below this number 
+				# depending on your other graphic settings.
 				lodChunkRenderDistanceRadius = 256
 				#
 				# How should the sides and bottom of grass block LODs render? 
@@ -673,20 +713,20 @@ _version = 4
 				# False: skipped blocks will not change color of surface below them.
 				tintWithAvoidedBlocks = true
 				#
-				# This indicates how quickly LODs decrease in quality the further away they are. 
-				# Higher settings will render higher quality fake chunks farther away, 
+				# This indicates how far apart drops in LOD quality are. 
+				# 
+				# Higher settings will increase the distance between drops 
 				# but will increase memory and GPU usage.
 				horizontalQuality = "MEDIUM"
 				#
 				# How should LOD transparency be handled. 
 				# 
 				# COMPLETE: LODs will render transparent. 
-				# FAKE: LODs will be opaque, but shaded to match the blocks underneath. 
 				# DISABLED: LODs will be opaque.
 				transparency = "COMPLETE"
 				#
 				# This is the same as vanilla Biome Blending settings for Lod area. 
-				#     Note that anything other than '0' will greatly effect Lod building time. 
+				#     Note: anything above '0' will slow down LOD loading time. 
 				# 
 				#     '0' equals to Vanilla Biome Blending of '1x1' or 'OFF', 
 				#     '1' equals to Vanilla Biome Blending of '3x3', 
@@ -699,6 +739,14 @@ _version = 4
 				# SINGLE_PASS: Fades after MC's transparent pass, opaque blocks underwater won't be faded. 
 				# DOUBLE_PASS: Slowest, fades after both MC's opaque and transparent passes, provides the smoothest transition.
 				vanillaFadeMode = "DOUBLE_PASS"
+				#
+				# If true DH will try to use the camera position when 
+				# determining LOD quality drop-off. 
+				# If false DH will use the player's position. 
+				#  
+				# Enabling helps free-cam mods render correctly. 
+				# Disabling helps multi-camera mods render correctly (ie Immersive Portals or camera mods).
+				useCameraPositionForQualityDropOff = true
 
 			[client.advanced.graphics.fog]
 				#
