@@ -1150,5 +1150,9 @@ hash = "424ed75337a2834cae6e318d47c9c1d57b9e08ae4f1e10db09160b84da320ecd"
 metafile = true
 
 [[files]]
+file = "pack.jpg"
+hash = "6b8852802b871aa56f3963eedddda2ddafce8b9053704524640ca65fcb0de4c4"
+
+[[files]]
 file = "scripts/recipes.zs"
 hash = "2e3551cb5ba30a0404b9a49cad4f6ade0f9a8413b31b25fe71532b12cab30b7b"

@@ -1,0 +1,28 @@
+* text=auto
+.gitattributes text eol=lf
+
+# Packwiz hashes are byte-sensitive. Keep pack metadata and config text stable
+# across Windows checkouts and Linux GitHub Actions runs.
+packs/** text=auto eol=lf
+*.toml text eol=lf
+*.json text eol=lf
+*.json5 text eol=lf
+*.jsonc text eol=lf
+*.snbt text eol=lf
+*.cfg text eol=lf
+*.ini text eol=lf
+*.properties text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.zs text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ogg binary
+*.zip binary

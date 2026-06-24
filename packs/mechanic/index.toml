@@ -5,6 +5,10 @@ file = "LICENSE"
 hash = "8c0a22ffaf4d2df5ed5205e07c934d8b8961cf53b8787b5779333d0cfadf9613"
 
 [[files]]
+file = "PATCH_NOTES.md"
+hash = "3af27fb8366cebb62db06506bbc08b8c989f807365824c5f00ebaf7faf455864"
+
+[[files]]
 file = "config/InventoryHUD/curios.json"
 hash = "9eec2ede6b679fb130b7e2fb0c1c760b4c0bb8195da50aeafd8207f06457ac0a"
 

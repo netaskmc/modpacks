@@ -1,0 +1,95 @@
+name: Refresh packwiz indexes
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "packs/**"
+      - ".gitattributes"
+      - ".github/workflows/packwiz-refresh.yml"
+  pull_request:
+    paths:
+      - "packs/**"
+      - ".gitattributes"
+      - ".github/workflows/packwiz-refresh.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  PACKWIZ_VERSION: latest
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.24.x"
+          cache: false
+
+      - name: Add Go bin to PATH
+        run: echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+
+      - name: Resolve packwiz version
+        id: packwiz-version
+        run: |
+          if [ "$PACKWIZ_VERSION" = "latest" ]; then
+            version="$(git ls-remote https://github.com/packwiz/packwiz HEAD | awk '{print $1}')"
+          else
+            version="$PACKWIZ_VERSION"
+          fi
+          echo "version=${version}" >> "$GITHUB_OUTPUT"
+
+      - name: Cache packwiz
+        id: cache-packwiz
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/go/bin/packwiz
+            ~/go/pkg/mod
+            ~/.cache/go-build
+          key: ${{ runner.os }}-packwiz-${{ steps.packwiz-version.outputs.version }}-go-1.24
+          restore-keys: |
+            ${{ runner.os }}-packwiz-
+
+      - name: Install packwiz
+        if: steps.cache-packwiz.outputs.cache-hit != 'true'
+        run: go install github.com/packwiz/packwiz@${{ steps.packwiz-version.outputs.version }}
+
+      - name: Refresh pack indexes
+        run: |
+          set -euo pipefail
+
+          shopt -s nullglob
+          for pack_file in packs/*/pack.toml; do
+            pack_dir="$(dirname "$pack_file")"
+            echo "::group::${pack_dir}"
+            (cd "$pack_dir" && packwiz refresh -y)
+            echo "::endgroup::"
+          done
+
+      - name: Verify refreshed indexes
+        if: github.event_name == 'pull_request'
+        run: |
+          if ! git diff --exit-code -- packs; then
+            echo "::error::Packwiz indexes are stale. Run packwiz refresh for the changed pack and commit the updated index.toml/pack.toml files."
+            exit 1
+          fi
+
+      - name: Commit refreshed indexes
+        if: github.event_name != 'pull_request'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Refresh packwiz indexes"
+          commit_options: "--no-verify"
+          file_pattern: "packs/**/index.toml packs/**/pack.toml"
+          commit_user_name: "GitHub Actions"
+          commit_user_email: "actions@github.com"

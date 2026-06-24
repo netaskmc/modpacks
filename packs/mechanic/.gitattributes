@@ -1,2 +1,10 @@
-# Disable Git line ending conversion, to prevent packwiz index hashes changing when committing from Windows
-* -text
+# Packwiz hashes are byte-sensitive. Keep text files LF while leaving binary
+# assets untouched.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ogg binary
+*.zip binary
