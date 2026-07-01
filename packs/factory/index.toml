@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "PATCH_NOTES.md"
-hash = "f0d4bb27eee9bc63d2c6241439073874383e73c27130d75c4c90c75d55b5e148"
+hash = "3d0418eeebd0226aa43bd319adcc44e9ecfd1f92428b6c37d1caf1b08f2ec9ed"
 
 [[files]]
 file = "config/DistantHorizons.toml"
@@ -3063,6 +3063,11 @@ metafile = true
 [[files]]
 file = "mods/notenoughcrashes.pw.toml"
 hash = "09ba6db54e6f13fafa1e12a9adcd83db9137617d631288579f520ab11b4bfe9a"
+metafile = true
+
+[[files]]
+file = "mods/ntid-bridge-mod.pw.toml"
+hash = "ae993ffdd1ec627628c272ab940daa1100828575775cc9dd5ce0f89e8d5b9b15"
 metafile = true
 
 [[files]]
