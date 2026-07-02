@@ -1,3 +1,7 @@
+### NeTask Factory 1.0.5
+
+- Обновлён серверный мод NTID Bridge Mod до 1.0.5.
+
 ### NeTask Factory 1.0.4
 
 - Обновлён NeoForge до 21.1.234.

@@ -1,12 +1,12 @@
 name = "NeTask Factory"
 author = "NeTask Collective"
-version = "1.0.4"
+version = "1.0.5"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "15248f8c74a9c13eee7e830462653d82d64e1db8554b1785c0a46826ee8a7aad"
+hash = "e4a117d5a5284542804bb0a0e5c9aea0ffd91c9a8947d701af457410ea8fb928"
 
 [versions]
 minecraft = "1.21.1"
