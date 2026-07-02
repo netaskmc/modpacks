@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "PATCH_NOTES.md"
-hash = "3d0418eeebd0226aa43bd319adcc44e9ecfd1f92428b6c37d1caf1b08f2ec9ed"
+hash = "65489afdf9cac6e397c48942893f074af471da1b52339320a6746519609df430"
 
 [[files]]
 file = "config/DistantHorizons.toml"
@@ -2543,6 +2543,11 @@ metafile = true
 [[files]]
 file = "mods/athena.pw.toml"
 hash = "38bddea8d550568799dd7f208c0bbe10280de3e456016a0d59aa20de112a2345"
+metafile = true
+
+[[files]]
+file = "mods/baguettelib.pw.toml"
+hash = "cc360d86f76e729d3ebb7384cfbc933d8ffba694ba91360edeb846d61d14e561"
 metafile = true
 
 [[files]]

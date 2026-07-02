@@ -1,16 +1,16 @@
 name = "NeTask Factory"
 author = "NeTask Collective"
-version = "1.0.3"
+version = "1.0.4"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "8e96e108e8c1fd00044692aad7c0ba205ca0b9db2001a0cacfc696037341ad57"
+hash = "15248f8c74a9c13eee7e830462653d82d64e1db8554b1785c0a46826ee8a7aad"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.228"
+neoforge = "21.1.234"
 
 [options]
 datapack-folder = "kubejs/data"
